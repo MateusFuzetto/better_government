@@ -84,11 +84,8 @@ ideas = {
 
 		available = {
 				NOT = { 
-				    OR = {
-					has_government = communism
-				
+				    AND = {
 					has_government = democratic
-				
 					}
 				}
 			}

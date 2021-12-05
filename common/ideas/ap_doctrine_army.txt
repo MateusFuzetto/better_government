@@ -16,7 +16,7 @@ ideas = {
 			}
 			equipment_bonus = {
 				category_army = {
-					supply_consumption = -0.15
+					supply_consumption = -0.10
 					soft_attack = 0.1 
 				}
 			}
@@ -44,7 +44,7 @@ ideas = {
 			}
 			equipment_bonus = {
 				category_army = {
-					supply_consumption = -0.15
+					supply_consumption = -0.10
 					soft_attack = 0.1 
 				}
 			}
@@ -83,6 +83,7 @@ ideas = {
 			}
 			equipment_bonus = {
 				category_army = {
+					supply_consumption = -0.15
 					breakthrough = 0.2
 					soft_attack = 0.3
 					hard_attack = 0.10 
@@ -98,15 +99,15 @@ ideas = {
 
 				modifier = {
 				    OR = {
-					has_government = fascism
-					has_government = neutrality
+						has_government = fascism
+						has_government = neutrality
 					}
 					factor = 0.5
 					
 				}
 				modifier = {
 				    OR = {
-					has_government = fascism
+						has_government = fascism
 					}
 					factor = 2.0
 					
