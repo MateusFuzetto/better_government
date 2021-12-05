@@ -147,7 +147,7 @@ ideas = {
 			
 			ai_will_do = {
 			
-   				factor = 0.5
+   				factor = 0
 
    				modifier = {
 				    
