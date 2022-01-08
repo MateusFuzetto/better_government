@@ -330,9 +330,9 @@
     cp_citizen_assembly_focus:0 "Citizen Assembly"
 
     #LAWS
-    assembly_focus_comunist:0 "Comunist Assembly"
+    assembly_focus_comunist:0 "Communist Assembly"
     assembly_focus_democratic:0 "Democratic Assembly"
-    assembly_focus_facist:0 "Facist Assembly"
+    assembly_focus_facist:0 "Fascist Assembly"
     assembly_focus_neutral:0 "Neutral Assembly"
 
     #SPECIAL BUILDING CONSTRUCT
