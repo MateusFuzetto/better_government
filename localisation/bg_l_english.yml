@@ -78,6 +78,8 @@
     mass_media_propaganda:0 "Government Propaganda"
     mass_media_censorship:0 "Censorship"
     mass_media_free:0 "Free Press"
+    mass_media_control:0 "Controlling our Subjects"
+    mass_media_liberty:0 "Looking for freedom"
 
     #POPULATION GROWTH CONTROL
     gp_population:0 "Population Growth Control"

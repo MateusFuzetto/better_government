@@ -198,6 +198,14 @@ spriteTypes = {
 		name = "GFX_idea_mass_media_propaganda"
 		texturefile = "gfx/interface/ideas/laws/government_policies/gp_mass_media_propaganda.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_mass_media_control"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_mass_media_control.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mass_media_liberty"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_mass_media_liberty.dds"
+	}
 
 	#Population Growth Control
 	spriteType = {
