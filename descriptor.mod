@@ -6,5 +6,5 @@ tags={
 }
 name="Better Government"
 picture="thumbnail.png"
-supported_version="1.11.4"
+supported_version="1.11.8"
 remote_file_id="2666375814"
