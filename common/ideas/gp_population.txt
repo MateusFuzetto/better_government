@@ -14,7 +14,6 @@ ideas = {
 			}
 
 			cost = 75
-			
 			cancel_if_invalid = yes
 			
 			ai_will_do = {
@@ -24,16 +23,6 @@ ideas = {
 		
 		population_open = {
 
-            available = {
-				NOT = {
-				    OR = {
-					has_government = communism
-					has_government = fascism
-					has_government = neutrality
-				    }
-				}
-			}
-
 			modifier = {
 				political_power_factor = 0.3
 				MONTHLY_POPULATION = 0.80
@@ -42,7 +31,6 @@ ideas = {
 			}
 
 			cost = 75
-			
 			cancel_if_invalid = yes
 
 			ai_will_do = {
@@ -56,15 +44,7 @@ ideas = {
 		}
 		
 		population_pure = {
-		    available = {
-				NOT = {
-				    OR = {
-					has_government = communism
-					has_government = democratic
-				    }
-				}
-			}
-			
+		   
 			modifier = {
 				MONTHLY_POPULATION = -0.30
 				political_power_factor = 0.2
@@ -73,7 +53,6 @@ ideas = {
 			}
 
 			cost = 75
-			
 			cancel_if_invalid = yes
 
 			ai_will_do = {
@@ -94,12 +73,6 @@ ideas = {
 		
 		population_controlled = {
 		
-			available = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			
 			modifier = {
 				MONTHLY_POPULATION = 0.30
 				war_support_weekly = -0.001
@@ -108,7 +81,6 @@ ideas = {
 			}
 
 			cost = 75
-			
 			cancel_if_invalid = yes
 
 			ai_will_do = {

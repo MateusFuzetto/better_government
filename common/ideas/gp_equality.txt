@@ -5,12 +5,7 @@ ideas = {
 		law = yes
 		
 		equality_all = {
-		    available = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			
+		    
 			modifier = {
 				stability_weekly = 0.001
 				political_power_factor = -0.2
@@ -38,15 +33,6 @@ ideas = {
 		
 		equality_segregation = {
 
-			available = {
-		       NOT = { 
-				    OR = {
-					has_government = communism
-				
-					}
-				}
-			}
-			
 			modifier = {
 				resistance_damage_to_garrison = -0.3
 				political_power_factor = 0.2
@@ -82,14 +68,6 @@ ideas = {
 
 		equality_genocide = {
 
-		available = {
-				NOT = { 
-				    AND = {
-					has_government = democratic
-					}
-				}
-			}
-			
 			modifier = {
 				resistance_damage_to_garrison = -0.5
 				political_power_factor = 0.3
@@ -114,8 +92,7 @@ ideas = {
 		}
 		
 		equality_minority = {
-		 available = {}
-			
+		
 			modifier = {
 				resistance_damage_to_garrison = -0.15
 				political_power_factor = 0.1

@@ -57,15 +57,7 @@ ideas = {
 		}
 		
 		finances_foreign = {
-		    available = {
-				NOT = {
-				    OR = {
-					has_government = communism
-					has_government = fascism
-				    }
-				}
-			}
-			
+		    
 			modifier = {
 				consumer_goods_factor = 0.05
 				local_resources_factor = 0.10
@@ -84,12 +76,6 @@ ideas = {
 		
 		finances_science = {
 		
-			available = {
-				NOT = {
-					
-				}
-			}
-			
 			modifier = {
 				research_speed_factor = 0.08
 				consumer_goods_factor = 0.05
