@@ -56,7 +56,7 @@ ideas = {
 				operation_make_resistance_contacts_outcome = 1
 				resistance_target_on_our_occupied_states = 0.5
 				resistance_growth_on_our_occupied_states = 0.4
-				exiled_divisions_attack_factor = 0.15
+				exiled_divisions_attack_factor = 0.10
 			}
 			
 			ai_will_do = {
