@@ -1,4 +1,4 @@
-version="0.1"
+version="1"
 tags={
 	"Gameplay"
 	"Ideologies"
@@ -7,5 +7,5 @@ name="Better Government - Kaiserreich"
 dependencies= { 
 	"Kaiserreich" 
 }
-supported_version="1.11.5"
+supported_version="1.11.8"
 picture="thumbnail.png"
