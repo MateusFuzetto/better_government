@@ -1,10 +1,11 @@
-version="1.0"
+version="1"
 tags={
-	"Balance"
 	"Gameplay"
 	"Ideologies"
 }
-name="Better Government"
-picture="thumbnail.png"
+name="Better Government - Kaiserreich"
+dependencies= { 
+	"Kaiserreich" 
+}
 supported_version="1.11.8"
-remote_file_id="2666375814"
+picture="thumbnail.png"
