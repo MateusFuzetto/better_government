@@ -191,6 +191,7 @@ ideas = {
 				org_loss_when_moving = -0.35
 				air_superiority_bonus_in_combat = 0.15
 				railway_gun_bombardment_factor = 0.10
+				shore_bombardment_bonus = 0.10
 			}
 			
 			cancel_if_invalid = yes

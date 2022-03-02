@@ -76,6 +76,50 @@ ideas = {
 				}
    			}
 		}
+
+		mass_media_control = {
 		
+			available = {
+				IF = {
+					num_subjects > 0
+				}
+			}
+			
+			modifier = {
+				subjects_autonomy_gain = -1.5
+				political_power_factor = -0.1
+			}
+			
+			cost = 75
+
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+
+   			}
+		}
+
+		mass_media_liberty = {
+		
+			available = {
+				IF = {
+					is_subject = yes
+				}
+			}
+			
+			modifier = {
+				autonomy_gain = 1.5
+				political_power_factor = -0.1
+			}
+			
+			cost = 75
+
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+
+   			}
+		}
+
 	}
 }
