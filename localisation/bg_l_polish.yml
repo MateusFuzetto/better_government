@@ -219,16 +219,16 @@
  np_light_ships:0 "Lekkie statki"
 
     #LAWS
- light_ships_destroyers:0 "Skupienie na niszczycielach"
+ #light_ships_destroyers:0 "Skupienie na niszczycielach"
  light_ships_submarines:0 "Skupienie na łodziach podwodnych"
- light_ships_cruisers:0 "Skupienia na krążownikach "
+ light_ships_screen_ships:0 "Ekran ostrości statku"
      
     #HEAVY SHIPS FOCUS
  np_heavy_ships:0 "Ciężkie statki"
 
     #LAWS
- heavy_ships_cruisers:0 "Skupienie na krążownikach"
- heavy_ships_battleships:0 "Skupienie na pancernikach"
+ #heavy_ships_cruisers:0 "Skupienie na krążownikach"
+ heavy_ships_capital_ships:0 "Koncentracja na statku kapitałowym"
  heavy_ships_carriers:0 "Skupienie na lotniskowcach"
 
     #MARINES

@@ -219,16 +219,16 @@
     np_light_ships:0 "Лёгкие корабли"
 
     #LAWS
-    light_ships_destroyers:0 "Упор на эсминцы"
+    #light_ships_destroyers:0 "Упор на эсминцы"
     light_ships_submarines:0 "Упор на подлодки"
-    light_ships_cruisers:0 "Упор на крейсеры"
+    light_ships_screen_ships:0 "Экран Корабль Фокус"
      
     #HEAVY SHIPS FOCUS
     np_heavy_ships:0 "Тяжёлые корабли"
 
     #LAWS
-    heavy_ships_cruisers:0 "Упор на крейсеры"
-    heavy_ships_battleships:0 "Упор на линкоры"
+    #heavy_ships_cruisers:0 "Упор на крейсеры"
+    heavy_ships_capital_ships:0 "Фокус капитального корабля"
     heavy_ships_carriers:0 "Упор на авианосцы"
 
     #MARINES

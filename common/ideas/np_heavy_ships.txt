@@ -4,54 +4,50 @@ ideas = {
 	
 		law = yes
 		
-		heavy_ships_cruisers = {
-		    available = {
-				
-			}
-			equipment_bonus = {
-				heavy_cruiser = {
-					instant = yes
-					build_cost_ic = -0.20
-				}
-				battle_cruiser = {
-					instant = yes
-					build_cost_ic = -0.15
-				}
-			}
-			
-			modifier = {
-				
-			}
-	
-			cost = 75
-			
-			cancel_if_invalid = yes
-			
-			ai_will_do = {
-   				factor = 0.5
-				modifier = {
-				    OR = {
-					has_government = communism
-					has_government = democratic
-					}
-					factor = 1
-					
-				}
-			}		
-			
-		}
+		#heavy_ships_cruisers = {
+		#    available = {
+		#		
+		#	}
+		#	equipment_bonus = {
+		#		heavy_cruiser = {
+		#			instant = yes
+		#			build_cost_ic = -0.20
+		#		}
+		#		battle_cruiser = {
+		#			instant = yes
+		#			build_cost_ic = -0.15
+		#		}
+		#	}
+		#	
+		#	modifier = {
+		#		
+		#	}
+		#
+		#	cost = 75
+		#	
+		#	cancel_if_invalid = yes
+		#	
+		#	ai_will_do = {
+   		#		factor = 0.5
+		#		modifier = {
+		#		    OR = {
+		#			has_government = communism
+		#			has_government = democratic
+		#			}
+		#			factor = 1
+		#			
+		#		}
+		#	}		
+		#	
+		#}
 		
-		heavy_ships_battleships = {
+		heavy_ships_capital_ships = {
 
 			available = {
 		       
 			}
 			equipment_bonus = {
-				battleship = {
-					instant = yes
-					build_cost_ic = -0.25
-				}
-				sh_battleship = {
+				capital_ship = {
 					instant = yes
 					build_cost_ic = -0.20
 				}

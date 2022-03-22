@@ -509,22 +509,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/navy_policies/np_light_ships_submarines.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_light_ships_cruisers"
-		texturefile = "gfx/interface/ideas/laws/navy_policies/np_light_ships_cruisers.dds"
+		name = "GFX_idea_light_ships_screen_ships"
+		texturefile = "gfx/interface/ideas/laws/navy_policies/np_light_ships_screen_ships.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_light_ships_destroyers"
-		texturefile = "gfx/interface/ideas/laws/navy_policies/np_light_ships_destroyers.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_idea_light_ships_destroyers"
+	#	texturefile = "gfx/interface/ideas/laws/navy_policies/np_light_ships_destroyers.dds"
+	#}
 
 	#Heavy Ships Focus
+	#spriteType = {
+	#	name = "GFX_idea_heavy_ships_cruisers"
+	#	texturefile = "gfx/interface/ideas/laws/navy_policies/np_heavy_ships_cruisers.dds"
+	#}
 	spriteType = {
-		name = "GFX_idea_heavy_ships_cruisers"
-		texturefile = "gfx/interface/ideas/laws/navy_policies/np_heavy_ships_cruisers.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_heavy_ships_battleships"
-		texturefile = "gfx/interface/ideas/laws/navy_policies/np_heavy_ships_battleships.dds"
+		name = "GFX_idea_heavy_ships_capital_ships"
+		texturefile = "gfx/interface/ideas/laws/navy_policies/np_heavy_ships_capital_ships.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_heavy_ships_carriers"

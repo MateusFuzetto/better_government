@@ -219,16 +219,16 @@
     np_light_ships:0 "Light Ships Focus"
 
     #LAWS
-    light_ships_destroyers:0 "Destroyers Focus"
+    #light_ships_destroyers:0 "Destroyers Focus"
     light_ships_submarines:0 "Submarines Focus"
-    light_ships_cruisers:0 "Cruisers Focus"
+    light_ships_screen_ships:0 "Screen Ship Focus"
      
     #HEAVY SHIPS FOCUS
     np_heavy_ships:0 "Heavy Ships Focus"
 
     #LAWS
-    heavy_ships_cruisers:0 "Cruisers Focus"
-    heavy_ships_battleships:0 "Battleships Focus"
+    #heavy_ships_cruisers:0 "Cruisers Focus"
+    heavy_ships_capital_ships:0 "Capital Ship Focus"
     heavy_ships_carriers:0 "Carriers Focus"
 
     #MARINES
