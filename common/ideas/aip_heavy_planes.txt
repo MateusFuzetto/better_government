@@ -4,12 +4,12 @@ ideas = {
 	
 		law = yes
 
-		heavy_planes_fighters = {
+		heavy_planes_naval = {
 		    available = {
 				
 			}
 			equipment_bonus = {
-				heavy_fighter = {
+				naval_bomber = {
 					instant = yes
 					build_cost_ic = -0.15
 				}

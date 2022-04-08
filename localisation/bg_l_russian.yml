@@ -274,7 +274,7 @@
     aip_light_planes:0 "Лёгкие самолёты"
     
     #LAWS
-    light_planes_naval:0 "Упор на палубные бомбардировщики"
+    light_planes_scout:0 "Разведчик Фокус"
     light_planes_fighters:0 "Упор на истребители"
     light_planes_cas:0 "Упор на штурмовики"
     
@@ -282,7 +282,7 @@
     aip_heavy_planes:0 "Тяжёлые самолёты"
 
     #LAWS
-    heavy_planes_fighters:0 "Упор на истребители"
+    heavy_planes_naval:0 "Морские бомбардировщики Фокус"
     heavy_planes_strategic:0 "Упор на страт. бомбардировщики"
     heavy_planes_tactical:0 "Упор на такт. бомбардировщики"
     heavy_planes_transport:0 "Упор на транспорт"

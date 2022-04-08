@@ -274,7 +274,7 @@
     aip_light_planes:0 "Light Planes Focus"
     
     #LAWS
-    light_planes_naval:0 "Naval Bombers Focus"
+    light_planes_scout:0 "Scout Focus"
     light_planes_fighters:0 "Fighter Focus"
     light_planes_cas:0 "CAS Focus"
     
@@ -282,7 +282,7 @@
     aip_heavy_planes:0 "Heavy Planes Focus"
 
     #LAWS
-    heavy_planes_fighters:0 "Heavy Fighter Focus"
+    heavy_planes_naval:0 "Naval Bombers Focus"
     heavy_planes_strategic:0 "Strategic Bomber Focus"
     heavy_planes_tactical:0 "Tactical Bomber Focus"
     heavy_planes_transport:0 "Transport Focus"

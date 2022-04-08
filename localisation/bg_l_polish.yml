@@ -274,7 +274,7 @@
  aip_light_planes:0 "Lekkie samoloty"
     
     #LAWS
- light_planes_naval:0 "Skupienie na bombowcach morskich"
+ light_planes_scout:0 "Skupienie Skauta"
  light_planes_fighters:0 "Koncentracja nad myśliwcami"
  light_planes_cas:0 "Skupienie się na CAS"
     
@@ -282,7 +282,7 @@
  aip_heavy_planes:0 "Samoloty ciężkie"
 
     #LAWS
- heavy_planes_fighters:0 "Skupienie na ciężkich myśliwcach"
+ heavy_planes_naval:0 "Skupienie bombowców morskich"
  heavy_planes_strategic:0 "Skupienie na bombowcach strategicznych"
  heavy_planes_tactical:0 "Skupienie na bombowcach taktycznych"
  heavy_planes_transport:0 "Skupienie na transportowcach"

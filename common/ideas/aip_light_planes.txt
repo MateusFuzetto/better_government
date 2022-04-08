@@ -11,7 +11,7 @@ ideas = {
 			equipment_bonus = {
 				fighter = {
 					instant = yes
-					build_cost_ic = -0.2
+					build_cost_ic = -0.20
 				}
 			}
 			modifier = {
@@ -77,15 +77,15 @@ ideas = {
    			}
 		}
 		
-		light_planes_naval = {
+		light_planes_scout = {
 
 		available = {
 				
 			}
 			equipment_bonus = {
-				naval_bomber = {
+				scout_plane = {
 					instant = yes
-					build_cost_ic = -0.15
+					build_cost_ic = -0.25
 				}
 			}
 			modifier = {

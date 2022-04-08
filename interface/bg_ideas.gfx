@@ -623,8 +623,8 @@ spriteTypes = {
 
 	#Light Planes Focus
 	spriteType = {
-		name = "GFX_idea_light_planes_naval"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_light_planes_naval.dds"
+		name = "GFX_idea_light_planes_scout"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_light_planes_scout.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_light_planes_fighters"
@@ -637,8 +637,8 @@ spriteTypes = {
 
 	#Heavy Planes Focus
 	spriteType = {
-		name = "GFX_idea_heavy_planes_fighters"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_heavy_planes_fighters.dds"
+		name = "GFX_idea_heavy_planes_naval"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_heavy_planes_naval.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_heavy_planes_strategic"
