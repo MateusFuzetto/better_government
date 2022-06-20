@@ -33,11 +33,11 @@ ideas = {
 			
 			modifier = {
 				war_support_weekly = 0.001
-				experience_gain_air = 0.05
-				experience_gain_army = 0.05
-				experience_gain_navy = 0.05
-				command_power_gain = 0.03
-				max_command_power_mult = 0.50
+				experience_gain_air = 0.03
+				experience_gain_army = 0.03
+				experience_gain_navy = 0.03
+				command_power_gain = 0.05
+				max_command_power_mult = 1
 			}
 
 			cost = 75

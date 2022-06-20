@@ -12,7 +12,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_gain = 0.1
+				political_power_gain = 0.15
 			}
 			
 			cancel_if_invalid = no
@@ -33,7 +33,7 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.05
 				stability_weekly = 0.0020
-				local_resources_factor = 0.30
+				local_resources_factor = 0.50
 			}
 			
 			cancel_if_invalid = yes
@@ -53,7 +53,7 @@ ideas = {
 
 			modifier = {
 				equipment_capture = 0.1
-				operation_make_resistance_contacts_outcome = 1
+				operation_make_resistance_contacts_outcome = 1.5
 				resistance_target_on_our_occupied_states = 0.5
 				resistance_growth_on_our_occupied_states = 0.4
 				exiled_divisions_attack_factor = 0.10
@@ -97,8 +97,8 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_dockyard = 0.25
-				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.30
+				industrial_capacity_factory = 0.30
 				production_factory_efficiency_gain_factor = 0.1
 				production_factory_max_efficiency_factor = 0.20
 			}
@@ -127,8 +127,8 @@ ideas = {
 			}
 
 			modifier = {
-				 mobilization_speed = 0.6
-				 army_speed_factor = 0.1
+				 mobilization_speed = 0.75
+				 army_speed_factor = 0.15
 			}
 			
 			ai_will_do = {
@@ -152,13 +152,13 @@ ideas = {
 			available = {
 				AND = {
 					num_of_civilian_factories > 30
-					has_war_support > 0.4
+					has_war_support > 0.5
 				}
 			}
 
 			modifier = {
-				political_power_gain = -0.10
-				consumer_goods_factor = -0.05
+				political_power_gain = -0.15
+				consumer_goods_factor = -0.1
 				production_speed_industrial_complex_factor = -0.10
 				production_speed_arms_factory_factor = 0.30
 				production_speed_dockyard_factor = 0.30
@@ -194,8 +194,8 @@ ideas = {
 
 			modifier = {
 				war_support_weekly = 0.002
-				weekly_manpower = 1000
-				army_morale_factor = 0.10
+				conscription_factor = 0.3
+				army_morale_factor = 0.15
 			}
 			
 			ai_will_do = {
@@ -220,10 +220,11 @@ ideas = {
 			}
 
 			modifier = {
-				agency_upgrade_time = -0.15
+				agency_upgrade_time = -0.25
 				operative_slot = 1
 				operation_cost = -0.30
-				own_operative_capture_chance_factor = -0.10
+				operation_outcome = 0.5
+				own_operative_capture_chance_factor = -0.15
 			}
 			
 			ai_will_do = {
