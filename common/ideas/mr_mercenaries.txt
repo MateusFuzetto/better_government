@@ -1,0 +1,87 @@
+ideas = {
+	mr_mercenaries = { 
+		law = yes
+
+		banned_mercenaries = {
+			removal_cost = -1
+			level = 1
+
+			available = {
+				
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+
+			modifier = {
+				army_org_factor = 0.05
+			}
+
+			on_add = {
+				BG_mercenary_banned = yes
+			}
+
+			cancel_if_invalid = no
+			default = yes
+		}
+		limited_foreign_mercenaries = {
+			removal_cost = -1
+			level = 1
+			
+			available = {
+			}
+
+			modifier = {
+				political_power_factor = -0.05
+			}
+
+			on_add = {
+				BG_mercenary_limited_contract = yes
+			}
+			
+			ai_will_do = {
+				factor = 1
+
+				modifier = {
+					threat < 0.30
+					factor = 40
+				}
+			}
+			
+			cancel_if_invalid = no
+			default = no
+		}
+		extensive_foreign_mercenaries = {
+			removal_cost = -1
+			level = 2
+			
+			available = {
+				OR = {
+					has_idea = limited_foreign_mercenaries
+					has_idea = extensive_foreign_mercenaries
+				}
+			}
+
+			modifier = {
+				political_power_factor = -0.10
+			}
+
+			on_add = {
+				BG_mercenary_extensive_contract = yes
+			}
+			
+			ai_will_do = {
+				factor = 1
+
+				modifier = {
+					threat < 0.30
+					factor = 40
+				}
+			}
+			
+			cancel_if_invalid = no
+			default = no
+		}
+	}
+}

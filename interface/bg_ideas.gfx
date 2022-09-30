@@ -1,38 +1,4 @@
 spriteTypes = {
-	#High Council
-	spriteType = {
-		name = "GFX_idea_planning_stage"
-		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_planning_stage.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_efficiency_burocracy"
-		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_efficiency_burocracy.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_creation_of_guerrilas"
-		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_creation_of_guerrilas.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_production_country"
-		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_production_country.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_mobilization_country"
-		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_mobilization_country.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_military_expansion"
-		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_military_expansion.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_nationalism_country"
-		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_nationalism_country.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_covert_ops"
-		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_covert_ops.dds"
-	}
-
 	#Service Exemption
 	spriteType = {
 		name = "GFX_idea_healthy_standard"
@@ -151,6 +117,27 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_egalitarian"
 		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_egalitarian_gender.dds"
+	}
+
+	#Mercenary
+	spriteType = {
+		name = "GFX_idea_banned_mercenaries"
+		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_banned_mercenaries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_limited_foreign_mercenaries"
+		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_limited_foreign_mercenaries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_extensive_foreign_mercenaries"
+		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_extensive_foreign_mercenaries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_expeditionary_mercenaries"
+		texturefile = "gfx/interface/ideas/laws/military_recruitment/mr_expeditionary_mercenaries.dds"
 	}
 
 	#Government Policies

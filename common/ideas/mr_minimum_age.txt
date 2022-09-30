@@ -4,8 +4,6 @@ ideas = {
 		law = yes
 
 		age_19 = {
-						
-			cost = 100
 			removal_cost = -1
 			level = 7
 			
@@ -14,6 +12,11 @@ ideas = {
 			
 			ai_will_do = {
 				factor = 1
+
+				modifier = {
+					threat < 0.50
+					factor = 40
+				}
 			}
 
 			modifier = {
@@ -24,8 +27,6 @@ ideas = {
 			default = yes
 		}
 		age_18 = {
-						
-			cost = 100
 			removal_cost = -1
 			level = 6
 			
@@ -34,7 +35,13 @@ ideas = {
 			
 			ai_will_do = {
 				factor = 1
+
+				modifier = {
+					threat > 0.50
+					factor = 80
+				}
 			}
+
 
 			modifier = {
 				training_time_army_factor = -0.05
@@ -44,17 +51,20 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		age_17 = {
-						
-			cost = 100
 			removal_cost = -1
 			level = 5
 			
 			available = {
-
 			}
 			
 			ai_will_do = {
 				factor = 1
+
+				modifier = {
+					has_manpower < 300000
+					threat > 0.75
+					factor = 80
+				}
 			}
 
 			modifier = {
@@ -64,14 +74,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		age_16 = {
-						
-			cost = 100
 			removal_cost = -1
 			level = 4
 			
 			available = {
 				NOT = { has_idea = disarmed_nation }
 				NOT = { has_idea = volunteer_only }
+				NOT = { has_idea = limited_conscription }
 				OR = {
 					AND = {
 						NOT = { has_government = democratic }
@@ -79,13 +88,19 @@ ideas = {
 					}
 					AND = {
 						has_war = yes
-						enemies_strength_ratio > 1.5
+						surrender_progress > 0.1
 					}
 				}
 			}
 			
 			ai_will_do = {
 				factor = 1
+
+				modifier = {
+					has_manpower < 100000
+					surrender_progress > 0.05
+					factor = 40
+				}
 			}
 
 			modifier = {
@@ -96,37 +111,8 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		age_15 = {
-						
-			cost = 100
 			removal_cost = -1
 			level = 3
-			
-			available = {
-				NOT = { has_idea = disarmed_nation }
-				NOT = { has_idea = volunteer_only }
-				NOT = { has_idea = limited_conscription }
-				AND = {
-					has_war = yes
-					enemies_strength_ratio > 1.5
-				}
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
-
-			modifier = {
-				training_time_army_factor = 0.10
-				conscription_factor = 0.20
-			}
-			
-			cancel_if_invalid = no
-		}
-		age_14 = {
-						
-			cost = 100
-			removal_cost = -1
-			level = 2
 			
 			available = {
 				NOT = { has_idea = disarmed_nation }
@@ -135,26 +121,31 @@ ideas = {
 				NOT = { has_idea = extensive_conscription }
 				AND = {
 					has_war = yes
-					enemies_strength_ratio > 1.5
+					surrender_progress > 0.25
+					has_war_support > 0.60
 				}
 			}
 			
 			ai_will_do = {
 				factor = 1
+
+				modifier = {
+					has_manpower < 0
+					surrender_progress > 0.45
+					factor = 40
+				}
 			}
 
 			modifier = {
-				conscription_factor = 0.25
-				training_time_army_factor = 0.15
+				training_time_army_factor = 0.10
+				conscription_factor = 0.20
 			}
 			
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
-		all_must_serve_young = {
-						
-			cost = 100
+		age_14 = {
 			removal_cost = -1
-			level = 1
+			level = 2
 			
 			available = {
 				NOT = { has_idea = disarmed_nation }
@@ -164,12 +155,54 @@ ideas = {
 				NOT = { has_idea = service_by_requirement }
 				AND = {
 					has_war = yes
-					enemies_strength_ratio > 1.5
+					surrender_progress > 0.35
+					has_war_support > 0.70
 				}
 			}
 			
 			ai_will_do = {
 				factor = 1
+
+				modifier = {
+					has_manpower < 0
+					surrender_progress > 0.45
+					factor = 40
+				}
+			}
+
+			modifier = {
+				training_time_army_factor = 0.15
+				conscription_factor = 0.25
+			}
+			
+			cancel_if_invalid = yes
+		}
+		all_must_serve_young = {
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				NOT = { has_idea = disarmed_nation }
+				NOT = { has_idea = volunteer_only }
+				NOT = { has_idea = limited_conscription }
+				NOT = { has_idea = extensive_conscription }
+				NOT = { has_idea = service_by_requirement }
+				NOT = { has_idea = all_adults_serve }
+				AND = {
+					has_war = yes
+					has_war_support > 0.85
+					surrender_progress > 0.50
+				}
+			}
+			
+			ai_will_do = {
+				factor = 1
+
+				modifier = {
+					has_manpower < 0
+					surrender_progress > 0.60
+					factor = 40
+				}
 			}
 
 			modifier = {
@@ -177,7 +210,7 @@ ideas = {
 				training_time_army_factor = 0.20
 			}
 			
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 	}
 }

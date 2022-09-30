@@ -3,7 +3,7 @@
     #----#
     #IDEAS
     #----#
-    military_recruitment:0 "Военные дела"
+    military_recruitment:0 "Военная вербовка"
 
     #HIGH COUNCIL
     mr_high_council:0 "Верховное Собрание"
@@ -65,6 +65,14 @@
     women_auxillary:0 "Вспомогательные отряды"
     limited_female_service:0 "Ограниченный призыв"
     egalitarian:0 "Равные права"
+
+    #MERCENARIES
+    mr_mercenaries:0 "Вербовка наемников"
+
+    #LAWS
+    banned_mercenaries:0 "запрещенный"
+    limited_foreign_mercenaries:0 "Ограничено"
+    extensive_foreign_mercenaries:0 "обширный"
 
     #----#
     #IDEAS
@@ -355,3 +363,15 @@
     synthetic_resources_focus_rubber:0 "Резина"
     synthetic_resources_focus_steel:0 "Сталь"
     synthetic_resources_focus_tungsten:0 "Вольфрам"
+
+    #----#
+    #UNITS
+    #----#
+    mercenary:0 "Наемники"
+    mercenary_desc:0 "Армия, которая следует за тем, кто платит"
+
+    #----#
+    #SCRIPTED EVENTS
+    #----#
+    BG_mercenary_limited_contract: "Mercenaries Limited Contracts \n"
+    BG_mercenary_limited_contract_desc: "Mercenaries Limited Contracts \n"

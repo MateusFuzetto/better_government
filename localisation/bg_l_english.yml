@@ -3,7 +3,7 @@
     #----#
     #IDEAS
     #----#
-    military_recruitment:0 "Military Affairs"
+    military_recruitment:0 "Military Recruitment"
 
     #HIGH COUNCIL
     mr_high_council:0 "High Council"
@@ -65,6 +65,14 @@
     women_auxillary:0 "Women's Auxillary"
     limited_female_service:0 "Limited Female Service"
     egalitarian:0 "Egalitarianism"
+
+    #MERCENARIES
+    mr_mercenaries:0 "Mercenary Recruitment"
+
+    #LAWS
+    banned_mercenaries:0 "Banned"
+    limited_foreign_mercenaries:0 "Limited"
+    extensive_foreign_mercenaries:0 "Extensive"
 
     #----#
     #IDEAS
@@ -355,3 +363,16 @@
     synthetic_resources_focus_rubber:0 "Rubber"
     synthetic_resources_focus_steel:0 "Steel"
     synthetic_resources_focus_tungsten:0 "Tungsten"
+
+    #----#
+    #UNITS
+    #----#
+    mercenary:0 "Mercenaries"
+    mercenary_desc:0 "An army that follows who pays"
+
+    #----#
+    #SCRIPTED EVENTS
+    #----#
+    BG_mercenary_limited_contract:0 "Add the limited divison Mercenary \n"
+    BG_mercenary_extend_contract:0 "Extend the limit of the Mercenary division \n"
+    BG_mercenary_expeditionary_mercenaries:0 "Beware, you cannot remove this idea, after selected \n"
