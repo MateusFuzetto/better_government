@@ -7,11 +7,15 @@ ideas = {
 			level = 1
 
 			available = {
-				
 			}
 
 			ai_will_do = {
 				factor = 1
+
+				modifier = {
+					has_manpower > 500000
+					factor = 80
+				}
 			}
 
 			modifier = {
@@ -30,6 +34,7 @@ ideas = {
 			level = 1
 			
 			available = {
+				NOT = { has_idea = extensive_foreign_mercenaries }
 			}
 
 			modifier = {
@@ -44,8 +49,10 @@ ideas = {
 				factor = 1
 
 				modifier = {
-					threat < 0.30
-					factor = 40
+					NOT = { has_idea = disarmed_nation }
+					NOT = { has_idea = volunteer_only }
+					has_manpower < 150000
+					factor = 80
 				}
 			}
 			
@@ -75,8 +82,11 @@ ideas = {
 				factor = 1
 
 				modifier = {
-					threat < 0.30
-					factor = 40
+					NOT = { has_idea = disarmed_nation }
+					NOT = { has_idea = volunteer_only }
+					NOT = { has_idea = limited_conscription }
+					has_manpower < 50000
+					factor = 80
 				}
 			}
 			
