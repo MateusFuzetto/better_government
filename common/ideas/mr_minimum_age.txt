@@ -19,6 +19,7 @@ ideas = {
 				}
 			}
 
+
 			modifier = {
 				training_time_army_factor = -0.1
 			}

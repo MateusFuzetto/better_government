@@ -6,20 +6,20 @@ ideas = {
 		
 		population_encourage = {
 
-			modifier = {
-				political_power_factor = 0.20
-				MONTHLY_POPULATION = 0.5
-				war_support_weekly = -0.002
-				stability_weekly = -0.002
+			available = {
 			}
 
-			cost = 75
-			
-			cancel_if_invalid = yes
+			modifier = {
+				political_power_factor = -0.10
+				MONTHLY_POPULATION = 0.5
+				stability_factor = -0.05
+			}
 			
 			ai_will_do = {
    				factor = 1
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 		population_open = {
@@ -35,27 +35,25 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = 0.3
-				MONTHLY_POPULATION = 0.80
-				war_support_weekly = -0.003
-				stability_weekly = -0.003
+				political_power_factor = -0.15
+				MONTHLY_POPULATION = 1
+				stability_factor = -0.10
 			}
 
-			cost = 75
-			
-			cancel_if_invalid = yes
-
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 1
 
    				modifier = {
 					has_government = democratic
-					factor = 2
+					factor = 20
 				}
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 		population_pure = {
+
 		    available = {
 				NOT = {
 				    OR = {
@@ -66,30 +64,28 @@ ideas = {
 			}
 			
 			modifier = {
-				MONTHLY_POPULATION = -0.30
-				political_power_factor = 0.2
-				war_support_weekly = 0.001
-				stability_weekly = 0.001
+				MONTHLY_POPULATION = -0.60
+				political_power_factor = 0.15
+				stability_factor = 0.05
+				war_support_factor = 0.05
 			}
 
-			cost = 75
-			
-			cancel_if_invalid = yes
-
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 1
 				modifier = {
 				    has_government = fascism
-					factor = 5
+					factor = 40
 				}
    				modifier = {
 				    if = {
-					GER = {has_government = fascism}
-					tag = GER
+						GER = {has_government = fascism}
+						tag = GER
 					}
-					factor = 10
+					factor = 80
 				}
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 		population_controlled = {
@@ -101,27 +97,25 @@ ideas = {
 			}
 			
 			modifier = {
-				MONTHLY_POPULATION = 0.30
-				war_support_weekly = -0.001
-				stability_weekly = -0.001
-				political_power_factor = 0.1
+				MONTHLY_POPULATION = 0.15
+				stability_factor = 0.05
+				political_power_factor = -0.05
 			}
 
-			cost = 75
-			
-			cancel_if_invalid = yes
 
 			ai_will_do = {
-   				factor = 1.0
+   				factor = 1
 				modifier = {
-				has_government = communism
-				factor = 5
+					has_government = communism
+					factor = 40
 				}
 				modifier = {
-				has_government = neutrality
-				factor = 3
+					has_government = neutrality
+					factor = 40
 				}
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 	}

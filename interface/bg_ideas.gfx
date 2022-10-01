@@ -1,4 +1,38 @@
 spriteTypes = {
+	#High Council
+	spriteType = {
+		name = "GFX_idea_planning_stage"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_planning_stage.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_efficiency_burocracy"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_efficiency_burocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_creation_of_guerrilas"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_creation_of_guerrilas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_country"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_production_country.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mobilization_country"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_mobilization_country.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_expansion"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_military_expansion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nationalism_country"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_nationalism_country.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_covert_ops"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_covert_ops.dds"
+	}
+
 	#Service Exemption
 	spriteType = {
 		name = "GFX_idea_healthy_standard"
@@ -154,11 +188,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_gp_war_bonds"
+		name = "GFX_idea_slot_gp_economic_freedom"
 		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_gp_nationalization"
+		name = "GFX_idea_slot_gp_economic_base"
 		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {
@@ -224,32 +258,60 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/government_policies/gp_equality_all.dds"
 	}
 
-	#War Bonds
+	#Economic Freedom
 	spriteType = {
-		name = "GFX_idea_war_bonds_welcome"
-		texturefile = "gfx/interface/ideas/laws/government_policies/gp_war_bonds_welcome.dds"
+		name = "GFX_idea_collectivization"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_freedom_collectivization.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_war_bonds_no"
-		texturefile = "gfx/interface/ideas/laws/government_policies/gp_war_bonds_no.dds"
+		name = "GFX_idea_illiberalism"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_freedom_illiberalism.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_war_bonds_force"
-		texturefile = "gfx/interface/ideas/laws/government_policies/gp_war_bonds_force.dds"
+		name = "GFX_idea_state_capitalism"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_freedom_state_capitalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_social_liberalism"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_freedom_social_liberalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eliberalism"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_freedom_eliberalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_capitalism"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_freedom_capitalism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_elitism"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_freedom_elitism.dds"
 	}
 
-	#Companies Nationalization
+	#Economic Base
 	spriteType = {
-		name = "GFX_idea_nationalization_capital"
-		texturefile = "gfx/interface/ideas/laws/government_policies/gp_nationalization_capital.dds"
+		name = "GFX_idea_agriculture"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_base_agriculture.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_nationalization_full"
-		texturefile = "gfx/interface/ideas/laws/government_policies/gp_nationalization_full.dds"
+		name = "GFX_idea_banking"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_base_banking.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_nationalization_partial"
-		texturefile = "gfx/interface/ideas/laws/government_policies/gp_nationalization_partial.dds"
+		name = "GFX_idea_service_economy"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_base_service_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_natural_exports"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_base_natural_exports.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_enterprise"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_base_enterprise.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manufacturing"
+		texturefile = "gfx/interface/ideas/laws/government_policies/gp_economic_base_manufacturing.dds"
 	}
 
 	#Financial Course

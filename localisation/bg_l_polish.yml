@@ -107,21 +107,28 @@
    equality_genocide:0 "Polityka ludobójstwa"
    equality_minority:0 "Ucisk na mniejszości"
 
-   #WAR BONDS
-   gp_war_bonds:0 "Obligacje wojenne"
+   #ECONOMIC FREEDOM
+   gp_economic_freedom:0 "Wolność gospodarcza"
 
    #LAWS
-   war_bonds_welcome:0 "Umiarkowane obligacje"
-   war_bonds_force:0 "Wymuś kupowanie obligacji"
-   war_bonds_no:0 "Nie sprzedawaj obligacji"
+   collectivization:0 "Kolektywizacja"
+   illiberalism:0 "Nieliberalizm"
+   state_capitalism:0 "Kapitalizm państwowy"
+   social_liberalism:0 "Liberalizm społeczny"
+   eliberalism:0 "Liberalizm"
+   capitalism:0 "Kapitalizm"
+   elitism:0 "Elitaryzm"
 
-   #COMPANIES NATIONALIZATION
-   gp_nationalization:0 "Nacjonalizacja firm"
+   #ECONOMIC BASE
+   gp_economic_base:0 "Economic Base"
 
    #LAWS
-   nationalization_full:0 "Własność państwowa"
-   nationalization_partial:0 "Kapitalizm państwowy"
-   nationalization_capital:0 "Kapitalizm"
+   agriculture:0 "Agrarian Economy"
+   banking:0 "Banking and Tax Haven"
+   service_economy:0 "Small Businesses"
+   natural_exports:0 "Natural Resources Exports"
+   enterprise:0 "Business and Enterprises" 
+   manufacturing:0 "Manufacturing"
 
    #FINANCIAL COURSE
    gp_finances:0 "Finansowanie"

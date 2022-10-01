@@ -1,6 +1,6 @@
 ideas = {
 
-	mr_high_council = { 
+	cop_high_council = { 
 		law = yes
 
 		planning_stage = {

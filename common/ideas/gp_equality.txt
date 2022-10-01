@@ -5,6 +5,7 @@ ideas = {
 		law = yes
 		
 		equality_all = {
+
 		    available = {
 				NOT = {
 					has_government = fascism
@@ -12,28 +13,25 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_weekly = 0.001
-				political_power_factor = -0.2
+				stability_factor = 0.05
+				political_power_factor = -0.15
 			    resistance_damage_to_garrison = 0.25
 				conscription_factor = 0.2
 			}
-	
-			cost = 75
-			
-			cancel_if_invalid = yes
 			
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 20
 				modifier = {
 				    OR = {
 					has_government = communism
 					has_government = democratic
 					}
-					factor = 1
+					factor = 40
 					
 				}
 			}		
 			
+			cancel_if_invalid = yes
 		}
 		
 		equality_segregation = {
@@ -48,33 +46,30 @@ ideas = {
 			}
 			
 			modifier = {
+				stability_factor = -0.10
+				political_power_factor = 0.15
 				resistance_damage_to_garrison = -0.3
-				political_power_factor = 0.2
-				stability_weekly = -0.003
-				conscription_factor = -0.2
+				conscription_factor = -0.15
 			}
-			
-			cost = 75
-
 			
 			cancel_if_invalid = yes
 
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 20
 
 				modifier = {
 				    OR = {
 					has_government = fascism
 					has_government = neutrality
 					}
-					factor = 0.5
+					factor = 20
 					
 				}
 				modifier = {
 				    OR = {
 					has_government = fascism
 					}
-					factor = 2.0
+					factor = 20
 					
 				}
    			}
@@ -82,7 +77,7 @@ ideas = {
 
 		equality_genocide = {
 
-		available = {
+			available = {
 				NOT = { 
 				    AND = {
 					has_government = democratic
@@ -92,23 +87,21 @@ ideas = {
 			
 			modifier = {
 				resistance_damage_to_garrison = -0.5
-				political_power_factor = 0.3
-				stability_weekly = -0.003
-				conscription_factor = -0.2
+				political_power_factor = 0.25
+				stability_factor = -0.15
+				conscription_factor = -0.30
 			}
 			cancel_if_invalid = yes
 			
-			cost = 75
-			
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 20
 
    				modifier = {
 				    if = {
-					GER = {has_government = fascism}
-					tag = GER
+						GER = {has_government = fascism}
+						tag = GER
 					}
-					factor = 10
+					factor = 20
 				}
    			}
 		}
@@ -118,12 +111,11 @@ ideas = {
 			
 			modifier = {
 				resistance_damage_to_garrison = -0.15
-				political_power_factor = 0.1
-				stability_weekly = -0.001
-				conscription_factor = -0.1
+				political_power_factor = 0.05
+				stability_factor = -0.05
+				conscription_factor = -0.05
 			}
-			cancel_if_invalid = yes
-			cost = 75
+			
 			ai_will_do = {
    				factor = 0.5
 
@@ -133,5 +125,7 @@ ideas = {
 				}
    			}
 		}
+
+		cancel_if_invalid = yes
 	}
 }

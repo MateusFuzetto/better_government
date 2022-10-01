@@ -1,5 +1,14 @@
 idea_categories = {
 
+	complementary_policies = {
+		slot = cop_high_council
+
+		ledger = civilian
+		
+		cost = 50
+		removal_cost = -1
+	}
+
 	military_recruitment = {
 		slot = mr_recruitment_standard
 		slot = mr_service_limit
@@ -11,21 +20,21 @@ idea_categories = {
 		ledger = civilian
 		
 		cost = 50
-		removal_cost = 25
+		removal_cost = -1
 	}
 
 	government_policies = {
 		slot = gp_mass_media
 		slot = gp_population
 		slot = gp_equality
-		slot = gp_war_bonds
-		slot = gp_nationalization
+		slot = gp_economic_freedom
+		slot = gp_economic_base
 		slot = gp_finances
 		
 		ledger = civilian
 
-		cost = 0
-		removal_cost = 0
+		cost = 50
+		removal_cost = 25
 	}
 
 	army_policies = {

@@ -4,7 +4,7 @@ ideas = {
 
 		banned_mercenaries = {
 			removal_cost = -1
-			level = 1
+			level = 2
 
 			available = {
 			}
@@ -31,7 +31,7 @@ ideas = {
 		}
 		limited_foreign_mercenaries = {
 			removal_cost = -1
-			level = 1
+			level = 2
 			
 			available = {
 				NOT = { has_idea = extensive_foreign_mercenaries }
@@ -61,7 +61,7 @@ ideas = {
 		}
 		extensive_foreign_mercenaries = {
 			removal_cost = -1
-			level = 2
+			level = 1
 			
 			available = {
 				OR = {
