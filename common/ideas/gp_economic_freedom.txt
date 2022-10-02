@@ -11,25 +11,25 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = 0.15
-				political_power_factor = 0.3
-				local_resources_factor = -0.3
-				consumer_goods_factor = 0.15
-				research_speed_factor = -0.15
-				industrial_capacity_factory = 0.225
-				production_speed_infrastructure_factor = -0.3
-				production_speed_industrial_complex_factor = 0.45
-				production_speed_arms_factory_factor = 0.45
-				production_speed_air_base_factor = -0.3
-				production_speed_supply_node_factor = -0.3
-				production_speed_naval_base_factor = -0.3
-				production_speed_anti_air_building_factor = -0.3
-				production_speed_radar_station_factor = -0.3
-				min_export = -0.225
+				stability_factor = 0.10
+				political_power_factor = 0.15
+				local_resources_factor = -0.15
+				consumer_goods_factor = 0.10
+				research_speed_factor = -0.10
+				industrial_capacity_factory = 0.15
+				production_speed_infrastructure_factor = -0.15
+				production_speed_industrial_complex_factor = 0.25
+				production_speed_arms_factory_factor = 0.25
+				production_speed_air_base_factor = -0.15
+				production_speed_supply_node_factor = -0.15
+				production_speed_naval_base_factor = -0.15
+				production_speed_anti_air_building_factor = -0.15
+				production_speed_radar_station_factor = -0.15
+				min_export = -0.20
 			}
 			
 			ai_will_do = {
-   				factor = 20
+   				factor = 1
 				modifier = {
 				    has_government = communism
 					factor = 40
@@ -50,25 +50,29 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.075
-				political_power_factor = 0.2
-				local_resources_factor = -0.2
-				consumer_goods_factor = 0.1
-				research_speed_factor = -0.1
-				industrial_capacity_factory = 0.15
-				production_speed_infrastructure_factor = -0.2
-				production_speed_industrial_complex_factor = 0.3
-				production_speed_arms_factory_factor = 0.3
-				production_speed_air_base_factor = -0.2
-				production_speed_supply_node_factor = -0.2
-				production_speed_naval_base_factor = -0.2
-				production_speed_anti_air_building_factor = -0.2
-				production_speed_radar_station_factor = -0.2
+				political_power_factor = 0.1
+				local_resources_factor = -0.1
+				consumer_goods_factor = 0.075
+				research_speed_factor = -0.075
+				industrial_capacity_factory = 0.075
+				production_speed_infrastructure_factor = -0.1
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_arms_factory_factor = 0.2
+				production_speed_air_base_factor = -0.10
+				production_speed_supply_node_factor = -0.1
+				production_speed_naval_base_factor = -0.1
+				production_speed_anti_air_building_factor = -0.1
+				production_speed_radar_station_factor = -0.1
 				min_export = -0.15
 			}
 
 			ai_will_do = {
-				factor = 1
-   			}
+   				factor = 1
+				modifier = {
+				    has_government = fascism
+					factor = 40
+				}
+			}	
 
 			cancel_if_invalid = yes
 		}
@@ -80,25 +84,30 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = 0.1
-				local_resources_factor = -0.1
+				political_power_factor = 0.05
+				local_resources_factor = -0.05
 				consumer_goods_factor = 0.05
 				research_speed_factor = -0.05
-				industrial_capacity_factory = 0.075
-				production_speed_infrastructure_factor = -0.1
+				industrial_capacity_factory = 0.05
+				production_speed_infrastructure_factor = -0.05
 				production_speed_industrial_complex_factor = 0.15
 				production_speed_arms_factory_factor = 0.15
-				production_speed_air_base_factor = -0.1
-				production_speed_supply_node_factor = -0.1
-				production_speed_naval_base_factor = -0.1
-				production_speed_anti_air_building_factor = -0.1
-				production_speed_radar_station_factor = -0.1
-				min_export = -0.075
+				production_speed_air_base_factor = -0.05
+				production_speed_supply_node_factor = -0.05
+				production_speed_naval_base_factor = -0.05
+				production_speed_anti_air_building_factor = -0.05
+				production_speed_radar_station_factor = -0.05
+				min_export = -0.1
 			}
 
 			ai_will_do = {
-				factor = 1
-   			}
+   				factor = 1
+				modifier = {
+				    has_government = democratic
+					num_of_factories < 50
+					factor = 40
+				}
+			}	
 
 			cancel_if_invalid = yes
 		}
@@ -113,12 +122,16 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = 0.05
+				political_power_factor = 0.10
 			}
 
 			ai_will_do = {
-				factor = 1
-   			}
+   				factor = 1
+				modifier = {
+					num_of_factories < 30
+					factor = 40
+				}
+			}	
 
 			cancel_if_invalid = yes
 		}
@@ -133,25 +146,30 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = -0.1
-				local_resources_factor = 0.1
+				political_power_factor = -0.05
+				local_resources_factor = 0.05
 				consumer_goods_factor = -0.05
 				research_speed_factor = 0.05
-				industrial_capacity_factory = -0.075
+				industrial_capacity_factory = -0.05
 				production_speed_infrastructure_factor = 0.15
-				production_speed_industrial_complex_factor = -0.1
-				production_speed_arms_factory_factor = -0.1
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
 				production_speed_air_base_factor = 0.15
 				production_speed_supply_node_factor = 0.15
 				production_speed_naval_base_factor = 0.15
 				production_speed_anti_air_building_factor = 0.15
 				production_speed_radar_station_factor = 0.15
-				min_export = 0.075
+				min_export = 0.1
 			}
 
 			ai_will_do = {
-				factor = 1
-   			}
+   				factor = 1
+				modifier = {
+				    has_government = democratic
+					num_of_factories > 50
+					factor = 40
+				}
+			}
 
 			cancel_if_invalid = yes
 		}
@@ -164,25 +182,29 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.075
-				political_power_factor = -0.2
-				local_resources_factor = 0.2
-				consumer_goods_factor = -0.1
-				research_speed_factor = 0.1
-				industrial_capacity_factory = -0.15
-				production_speed_infrastructure_factor = 0.3
-				production_speed_industrial_complex_factor = -0.2
-				production_speed_arms_factory_factor = -0.2
-				production_speed_air_base_factor = 0.3
-				production_speed_supply_node_factor = 0.3
-				production_speed_naval_base_factor = 0.3
-				production_speed_anti_air_building_factor = 0.3
-				production_speed_radar_station_factor = 0.3
+				political_power_factor = -0.1
+				local_resources_factor = 0.1
+				consumer_goods_factor = -0.075
+				research_speed_factor = 0.075
+				industrial_capacity_factory = -0.075
+				production_speed_infrastructure_factor = 0.2
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				production_speed_air_base_factor = 0.2
+				production_speed_supply_node_factor = 0.2
+				production_speed_naval_base_factor = 0.2
+				production_speed_anti_air_building_factor = 0.2
+				production_speed_radar_station_factor = 0.2
 				min_export = 0.15
 			}
 
 			ai_will_do = {
-				factor = 1
-   			}
+   				factor = 1
+				modifier = {
+					num_of_factories > 75
+					factor = 40
+				}
+			}
 
 			cancel_if_invalid = yes
 		}
@@ -194,26 +216,30 @@ ideas = {
 			}
 
 			modifier = {
-				stability_factor = -0.15
-				political_power_factor = -0.3
-				local_resources_factor = 0.3
-				consumer_goods_factor = -0.15
-				research_speed_factor = 0.15
-				industrial_capacity_factory = -0.225
-				production_speed_infrastructure_factor = 0.45
-				production_speed_industrial_complex_factor = -0.3
-				production_speed_arms_factory_factor = -0.3
-				production_speed_air_base_factor = 0.45
-				production_speed_supply_node_factor = 0.45
-				production_speed_naval_base_factor = 0.45
-				production_speed_anti_air_building_factor = 0.45
-				production_speed_radar_station_factor = 0.45
-				min_export = 0.225
+				stability_factor = -0.1
+				political_power_factor = -0.15
+				local_resources_factor = 0.15
+				consumer_goods_factor = -0.1
+				research_speed_factor = 0.10
+				industrial_capacity_factory = -0.10
+				production_speed_infrastructure_factor = 0.25
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.15
+				production_speed_air_base_factor = 0.25
+				production_speed_supply_node_factor = 0.25
+				production_speed_naval_base_factor = 0.25
+				production_speed_anti_air_building_factor = 0.25
+				production_speed_radar_station_factor = 0.25
+				min_export = 0.2
 			}
 
 			ai_will_do = {
-				factor = 1
-   			}
+   				factor = 1
+				modifier = {
+					num_of_factories > 125
+					factor = 40
+				}
+			}
 
 			cancel_if_invalid = yes
 		}

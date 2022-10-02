@@ -124,8 +124,8 @@ ideas = {
 					factor = 0.5
 				}
    			}
-		}
 
-		cancel_if_invalid = yes
+			cancel_if_invalid = yes
+		}
 	}
 }
