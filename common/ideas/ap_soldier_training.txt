@@ -10,44 +10,36 @@ ideas = {
 				army_morale_factor = -0.05
 				training_time_factor = -0.1
 			}
-
-			cost = 75
-			
-			cancel_if_invalid = yes
 			
 			ai_will_do = {
-   				factor = 0.7
-				modifier = {
-					has_government = fascism
-					factor = 1
-				}
+   				factor = 1
+
 				modifier = {
 					has_government = communism
-					factor = 0.5
+					factor = 40
 				}
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 		soldier_full = {
 
-		
 			modifier = {
 				army_morale_factor = 0.10
 				training_time_factor = 0.15
 			}
-			
-			cost = 75
-			
-			cancel_if_invalid = yes
 
 			ai_will_do = {
-   				factor = 0.9
+   				factor = 1
 
    				modifier = {
 					has_government = democratic
-					factor = 2
+					factor = 40
 				}
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 		soldier_extended = {
@@ -60,13 +52,16 @@ ideas = {
 				training_time_factor = 0.33
 			}
 
-			cost = 75
-			
-			cancel_if_invalid = yes
-
 			ai_will_do = {
-   				factor = 0.6
+   				factor = 1
+
+				modifier = {
+					has_government = neutrality
+					factor = 40
+				}
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 		soldier_baptism = {
@@ -80,13 +75,15 @@ ideas = {
 				training_time_factor = -0.33
 			}
 
-			cost = 75
-			
 			cancel_if_invalid = yes
 
 			ai_will_do = {
-   				factor = 0.4
-				
+   				factor = 1
+
+				modifier = {
+					has_government = fascism
+					factor = 40
+				}
    			}
 		}
 	}

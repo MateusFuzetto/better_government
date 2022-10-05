@@ -154,15 +154,9 @@
     doctrine_army_combined:0 "Война будущего"
     doctrine_army_plan:0 "Дотошное планирование"
     doctrine_army_indirect:0 "Внезапный удар"
+    doctrine_the_old_way:0 "Лошади на фронте"
+    doctrine_the_unthinkable_way:0 "Немыслимый путь"
     
-    #CONSCRIPTION TYPE
-    ap_conscription_type:0 "Призыв"
-
-    #LAWS
-    conscription_all:0 "Срочная армия"
-    conscription_small:0 "Контрактная армия"
-    conscription_mixed:0 "Смешанная армия"
-
     #SOLDIERS TRAINING     
     ap_soldier_training:0 "Тренировка солдат"
 
@@ -176,10 +170,10 @@
     ap_officer_training:0 "Тренировка офицеров"
 
     #LAWS
-    officer_full:0 "Высшие чины"
-    officer_basic:0 "Низшие чины"
-    officer_advanced:0 "Продвинутая"
-    officer_foreign:0 "Обучение зарубежом"
+    officer_attack:0 "Атака"
+    officer_defense:0 "Защита"
+    officer_planning:0 "Планирование"
+    officer_logistics:0 "Логистика"
     
     #SPECIAL FORCES ROLE
     ap_spec_ops:0 "Роль спецназа"
@@ -189,15 +183,26 @@
     spec_ops_quality:0 "Спецоперации"
     spec_ops_foreign:0 "Зарубежные конфликты"
     spec_ops_security:0 "Внутренняя безопасность"
-    
-    #GENEVA CONVENTION
-    ap_convention:0 "Женевская конвенция"
+
+    #MANUFACTORY
+    ap_manufactory:0 "Земельная мануфактура"
 
     #LAWS
-    convention_strict:0 "Строго соблюдается"
-    convention_small:0 "Небольшие нарушения"
-    convention_severe:0 "Почти не соблюдается"
-    convention_no:0 "Какая ещё конвенция?"
+    manufactory_light_tanks:0 "Легкие танки"
+    manufactory_medium_tanks:0 "Средние танки"
+    manufactory_heavy_tanks:0 "Тяжелые танки"
+    manufactory_super_heavy_tanks:0 "Сверхтяжелые танки"
+    manufactory_amphibious_tanks:0 "Плавающие танки"
+    manufactory_railway_guns:0 "Железнодорожные пушки"
+    manufactory_support_vehicles:0 "Вспомогательные автомобили"
+    
+    #VOLUNTEERS
+    ap_volunteers:0 "Волонтеры"
+
+    #LAWS
+    volunteers_no:0 "Нет волонтеров"
+    volunteers_limited:0 "Малая сила"
+    volunteers_extended:0 "Большая сила"
 
     #----#
     #IDEAS

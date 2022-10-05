@@ -338,10 +338,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/idea_slot_tank_manufacturer.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_ap_conscription_type"
-		texturefile = "gfx/interface/idea_slot_tank_manufacturer.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_slot_ap_soldier_training"
 		texturefile = "gfx/interface/idea_slot_tank_manufacturer.dds"
 	}
@@ -354,7 +350,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/idea_slot_tank_manufacturer.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_ap_convention"
+		name = "GFX_idea_slot_ap_manufactory"
+		texturefile = "gfx/interface/idea_slot_tank_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_ap_volunteers"
 		texturefile = "gfx/interface/idea_slot_tank_manufacturer.dds"
 	}
 
@@ -383,29 +383,23 @@ spriteTypes = {
 		name = "GFX_idea_doctrine_army_indirect"
 		texturefile = "gfx/interface/ideas/laws/army_policies/ap_doctrine_army_indirect.dds"
 	}
-
-	#Conscription Type
 	spriteType = {
-		name = "GFX_idea_conscription_all"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_conscription_all.dds"
+		name = "GFX_idea_doctrine_the_old_way"
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_doctrine_the_old_way.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_conscription_small"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_conscription_small.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_conscription_mixed"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_conscription_partial.dds"
+		name = "GFX_idea_doctrine_the_unthinkable_way"
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_doctrine_the_unthinkable_way.dds"
 	}
 
 	#Soldiers Training
 	spriteType = {
-		name = "GFX_idea_soldier_full"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_soldier_full.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_soldier_basic"
 		texturefile = "gfx/interface/ideas/laws/army_policies/ap_soldier_basic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_soldier_full"
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_soldier_full.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_soldier_extended"
@@ -418,20 +412,20 @@ spriteTypes = {
 
 	#Officers Training
 	spriteType = {
-		name = "GFX_idea_officer_full"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_officer_full.dds"
+		name = "GFX_idea_officer_attack"
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_officer_attack.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_officer_basic"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_officer_basic.dds"
+		name = "GFX_idea_officer_defense"
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_officer_defense.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_officer_advanced"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_officer_advanced.dds"
+		name = "GFX_idea_officer_planning"
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_officer_planning.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_officer_foreign"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_officer_foreign.dds"
+		name = "GFX_idea_officer_logistics"
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_officer_logistics.dds"
 	}
 
 	#Special Forces Role
@@ -452,22 +446,48 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/army_policies/ap_spec_ops_security.dds"
 	}
 
+	#Manufactory
+	spriteType = {
+		name = "GFX_idea_manufactory_light_tanks" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_manufactory_light_tanks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manufactory_medium_tanks" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_manufactory_medium_tanks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manufactory_heavy_tanks" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_manufactory_heavy_tanks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manufactory_super_heavy_tanks" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_manufactory_super_heavy_tanks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manufactory_amphibious_tanks" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_manufactory_amphibious_tanks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manufactory_railway_guns" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_manufactory_railway_guns.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_manufactory_support_vehicles" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_manufactory_support_vehicles.dds"
+	}
+
 	#Geneva Convention
 	spriteType = {
-		name = "GFX_idea_convention_strict"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_convention_strict.dds"
+		name = "GFX_idea_volunteers_no" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_volunteers_no.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_convention_no"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_convention_no.dds"
+		name = "GFX_idea_volunteers_limited" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_volunteers_limited.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_convention_small"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_convention_small.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_convention_severe"
-		texturefile = "gfx/interface/ideas/laws/army_policies/ap_convention_severe.dds"
+		name = "GFX_idea_volunteers_extended" 
+		texturefile = "gfx/interface/ideas/laws/army_policies/ap_volunteers_extended.dds"
 	}
 
 	#Navy Policies

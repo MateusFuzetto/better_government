@@ -4,110 +4,126 @@ ideas = {
 	
 		law = yes
 		
-		officer_basic = {
-		available = {
-				
+		officer_attack = {
+			removal_cost = -1
+
+			available = {
+				NOT = { has_idea = officer_defense }
+				NOT = { has_idea = officer_planning }
+				NOT = { has_idea = officer_logistics }
 			}
 			
 			modifier = {
-				max_planning = -0.2
-				planning_speed = -0.1
-				experience_gain_army_factor = 0.3
+			}
+			
+			on_add = {
+				every_army_leader = {
+					add_attack = 1
+				}
 			}
 
-			cost = 75
-			
-			cancel_if_invalid = yes
-			
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 1
+
 				modifier = {
-					OR = {
-					has_government = communism
 					has_government = fascism
-				    }
-					factor = 10
+					factor = 40
 				}
    			}
-			
+
+			cancel_if_invalid = yes
 		}
 		
-		officer_full = {
-			
-			modifier = {
-				max_planning = 0.15
-				planning_speed = 0.3
-				experience_gain_army_factor = 0.1
+		officer_defense = {
+			removal_cost = -1
+
+			available = {
+				NOT = { has_idea = officer_attack }
+				NOT = { has_idea = officer_planning }
+				NOT = { has_idea = officer_logistics }
 			}
 			
-			cost = 75
+			modifier = {
+
+			}
+
+			on_add = {
+				every_army_leader = {
+					add_defense = 1
+				}
+			}
 			
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					has_government = democratic
+					factor = 40
+				}
+   			}
+
 			cancel_if_invalid = yes
+		}
+		
+		officer_planning = {
+			removal_cost = -1
+		
+			available = {
+				NOT = { has_idea = officer_attack }
+				NOT = { has_idea = officer_defense }
+				NOT = { has_idea = officer_logistics }
+			}
+			
+			modifier = {
+
+			}
+
+			on_add = {
+				every_army_leader = {
+					add_planning = 1
+				}
+			}
+			
+			ai_will_do = {
+   				factor = 1
+				
+				modifier = {
+					has_government = communism
+					factor = 40
+				}
+   			}
+
+			cancel_if_invalid = yes
+		}
+		
+		officer_logistics = {
+			removal_cost = -1
+		
+			available = {
+				NOT = { has_idea = officer_attack }
+				NOT = { has_idea = officer_defense }
+				NOT = { has_idea = officer_planning }
+			}
+			
+			modifier = {
+			}
+
+			on_add = {
+				every_army_leader = {
+					add_logistics = 1
+				}
+			}
 
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 1
 
-   				modifier = {
-					OR = {
-					has_government = communism
-					has_government = fascism
+				modifier = {
 					has_government = neutrality
-				    }
-					factor = 1
+					factor = 40
 				}
    			}
-		}
-		
-		officer_advanced = {
-		
-			available = {
-				
-			}
 			
-			modifier = {
-				max_planning = 0.3
-				planning_speed = 0.5
-				experience_gain_army_factor = -0.1
-			}
-			
-			cost = 75
-
 			cancel_if_invalid = yes
-
-			ai_will_do = {
-   				factor = 0.5
-
-   				modifier = {
-					has_government = democratic
-					factor = 10
-				}
-   			}
-		}
-		
-		officer_foreign = {
-		
-			available = {
-				
-			}
-			
-			modifier = {
-				send_volunteer_size = 3
-				send_volunteers_tension = -0.25
-				air_volunteer_cap = 50
-			}
-			
-			cost = 75
-
-			cancel_if_invalid = yes
-
-			ai_will_do = {
-   				factor = 0.5
-
-   				modifier = {
-					has_government = democratic
-					factor = 10
-				}
-   			}
 		}
 		
 	}

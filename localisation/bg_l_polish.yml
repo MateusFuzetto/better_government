@@ -154,14 +154,8 @@
    doctrine_army_combined:0 "Wojna przyszłości"
    doctrine_army_plan:0 "Skrupulatne planowanie"
    doctrine_army_indirect:0 "Nagły atak"
-    
-   #CONSCRIPTION TYPE
-   ap_conscription_type:0 "Rodzaj poboru"
-
-   #LAWS
-   conscription_all:0 "Służba obowiązkowa"
-   conscription_small:0 "Wojsko kontraktowe"
-   conscription_mixed:0 "Armia mieszana"
+   doctrine_the_old_way:0 "Konie na froncie"
+   doctrine_the_unthinkable_way:0 "Nie do pomyślenia sposób"
 
    #SOLDIERS TRAINING     
    ap_soldier_training:0 "Szkolenia wojska"
@@ -176,10 +170,10 @@
    ap_officer_training:0 "Szkolenie oficerskie"
 
    #LAWS
-   officer_full:0 "Major"
-   officer_basic:0 "Junior"
-   officer_advanced:0 "Zaawansowane"
-   officer_foreign:0 "Misje zagraniczne"
+   officer_attack:0 "Atak"
+   officer_defense:0 "Obrona"
+   officer_planning:0 "Planowanie"
+   officer_logistics:0 "Logistyka"
     
    #SPECIAL FORCES ROLE
    ap_spec_ops:0 "Zadanie sił specjalnych"
@@ -188,16 +182,27 @@
    spec_ops_quantity:0 "Wsparcie wojska"
    spec_ops_quality:0 "Operacje specjalne"
    spec_ops_foreign:0 "Konflikty zagraniczne"
-   spec_ops_security:0 "Bezpieczeństwo wewnętrzne "
-    
-   #GENEVA CONVENTION
-   ap_convention:0 "Konwencja genewska"
+   spec_ops_security:0 "Bezpieczeństwo wewnętrzne"
+
+   #MANUFACTORY
+   ap_manufactory:0 "Manufaktura Ziemi"
 
    #LAWS
-   convention_strict:0 "Ściśle przestrzegane"
-   convention_small:0 "Niewielkie naruszenia"
-   convention_severe:0 "Naganne łamanie"
-   convention_no:0 "Genewa- co?"
+   manufactory_light_tanks:0 "Czołgi lekkie"
+   manufactory_medium_tanks:0 "Czołgi średnie"
+   manufactory_heavy_tanks:0 "Czołgi ciężkie"
+   manufactory_super_heavy_tanks:0 "Czołgi superciężkie"
+   manufactory_amphibious_tanks:0 "Czołgi amfibie"
+   manufactory_railway_guns:0 "Działa kolejowe"
+   manufactory_support_vehicles:0 "Wsparcie pojazdów"
+    
+   #VOLUNTEERS
+   ap_volunteers:0 "Wolontariusze"
+
+   #LAWS
+   volunteers_no:0 "Brak wolontariuszy"
+   volunteers_limited:0 "Mała siła"
+   volunteers_extended:0 "Duża siła"
 
    #----#
    #IDEAS

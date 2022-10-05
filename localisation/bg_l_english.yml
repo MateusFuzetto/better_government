@@ -154,15 +154,9 @@
     doctrine_army_combined:0 "Future of Warfare"
     doctrine_army_plan:0 "Meticulous planning"
     doctrine_army_indirect:0 "Sudden Strike"
+    doctrine_the_old_way:0 "Horses in the Front"
+    doctrine_the_unthinkable_way:0 "Unthinkable Way"
     
-    #CONSCRIPTION TYPE
-    ap_conscription_type:0 "Conscription Type"
-
-    #LAWS
-    conscription_all:0 "Obligatory Service"
-    conscription_small:0 "Contract Army"
-    conscription_mixed:0 "Mixed Army"
-
     #SOLDIERS TRAINING     
     ap_soldier_training:0 "Soldiers Training"
 
@@ -176,10 +170,10 @@
     ap_officer_training:0 "Officers Training"
 
     #LAWS
-    officer_full:0 "Major"
-    officer_basic:0 "Junior"
-    officer_advanced:0 "Advanced"
-    officer_foreign:0 "Foreign Missions"
+    officer_attack:0 "Attack"
+    officer_defense:0 "Defense"
+    officer_planning:0 "Planning"
+    officer_logistics:0 "Logistics"
     
     #SPECIAL FORCES ROLE
     ap_spec_ops:0 "Special Forces Role"
@@ -190,14 +184,25 @@
     spec_ops_foreign:0 "Foreign Conflicts"
     spec_ops_security:0 "Inner Security"
     
-    #GENEVA CONVENTION
-    ap_convention:0 "Geneva Convention"
+    #MANUFACTORY
+    ap_manufactory:0 "Land Manufactory"
 
     #LAWS
-    convention_strict:0 "Strictly Followed"
-    convention_small:0 "Small Violations"
-    convention_severe:0 "Severe Violations"
-    convention_no:0 "Geneva- What?"
+    manufactory_light_tanks:0 "Light Tanks"
+    manufactory_medium_tanks:0 "Medium Tanks"
+    manufactory_heavy_tanks:0 "Heavy Tanks"
+    manufactory_super_heavy_tanks:0 "Super Heavy Tanks"
+    manufactory_amphibious_tanks:0 "Amphibious Tanks"
+    manufactory_railway_guns:0 "Railway Guns"
+    manufactory_support_vehicles:0 "Support Vehicles"
+
+    #VOLUNTEERS
+    ap_volunteers:0 "Volunteers"
+
+    #LAWS
+    volunteers_no:0 "No volunteers"
+    volunteers_limited:0 "Small Force"
+    volunteers_extended:0 "Large Force"
 
     #----#
     #IDEAS
