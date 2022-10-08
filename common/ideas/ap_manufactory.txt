@@ -20,7 +20,7 @@ ideas = {
 			}
 			
 			ai_will_do = {	
-   				factor = 1
+   				factor = 5
    			}
 
 			cancel_if_invalid = yes
@@ -42,7 +42,11 @@ ideas = {
 			}
 			
 			ai_will_do = {	
-   				factor = 1
+   				factor = 40
+				modifier = {
+					tag = GER
+					factor = 80
+				}
    			}
 
 			cancel_if_invalid = yes
@@ -64,7 +68,7 @@ ideas = {
 			}
 			
 			ai_will_do = {	
-   				factor = 1
+   				factor = 5
    			}
 
 			cancel_if_invalid = yes
@@ -86,7 +90,7 @@ ideas = {
 			}
 			
 			ai_will_do = {	
-   				factor = 1
+   				factor = 5
    			}
 
 			cancel_if_invalid = yes
@@ -108,7 +112,7 @@ ideas = {
 			}
 			
 			ai_will_do = {	
-   				factor = 1
+   				factor = 5
    			}
 
 			cancel_if_invalid = yes
@@ -164,7 +168,11 @@ ideas = {
 			}
 			
 			ai_will_do = {	
-   				factor = 1
+   				factor = 40
+				modifier = {
+					has_government = democratic
+					factor = 80
+				}
    			}
 
 			cancel_if_invalid = yes

@@ -1,12 +1,11 @@
 ideas = {
 
-	np_training_navy = { 
+	np_sailor_training = { 
 	
 		law = yes
 
-		training_navy_theory = {
+		sailor_training_theory = {
 		    available = {
-				
 			}
 			
 			modifier = {
@@ -14,29 +13,23 @@ ideas = {
 				naval_morale_factor = 0.15
 				experience_gain_navy_factor = -0.2
 			}
-	
-			cost = 75
-			
-			cancel_if_invalid = yes
 			
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 1
 				modifier = {
 				    OR = {
-					has_government = communism
-					has_government = democratic
+						has_government = communism
+						has_government = democratic
 					}
-					factor = 1
-					
+					factor = 40					
 				}
 			}		
 			
+			cancel_if_invalid = yes
 		}
 
-		training_navy_practic = {
-
+		sailor_training_practic = {
 			available = {
-		       
 			}
 			
 			modifier = {
@@ -45,36 +38,22 @@ ideas = {
 				experience_gain_navy_factor = -0.3
 			}
 			
-			cost = 75
-
-			
-			cancel_if_invalid = yes
-
 			ai_will_do = {
-   				factor = 0.5
-
+   				factor = 1
 				modifier = {
 				    OR = {
-					has_government = fascism
-					has_government = neutrality
+						has_government = fascism
+						has_government = neutrality
 					}
-					factor = 0.5
-					
-				}
-				modifier = {
-				    OR = {
-					has_government = fascism
-					}
-					factor = 2.0
-					
+					factor = 40
 				}
    			}
+
+			cancel_if_invalid = yes
 		}
 		
-		training_navy_basic = {
-
+		sailor_training_basic = {
 			available = {
-				
 			}
 			
 			modifier = {
@@ -83,20 +62,11 @@ ideas = {
 				experience_gain_navy_factor = 0.3
 			}
 			
-			cancel_if_invalid = yes
-			
-			cost = 75
-			
 			ai_will_do = {
-			
-   				factor = 0.5
-
-   				modifier = {
-				    
-					
-				}
+   				factor = 20
    			}
+
+			cancel_if_invalid = yes
 		}
-		
 	}
 }

@@ -13,7 +13,11 @@ ideas = {
 			}
 			
 			ai_will_do = {
-   				factor = 1
+				factor = 0
+				modifier = {
+					has_government = democratic
+					factor = 40
+				}
    			}
 			
 			cancel_if_invalid = yes
@@ -30,7 +34,11 @@ ideas = {
 			}
 
 			ai_will_do = {
-   				factor = 1
+				factor = 0
+				modifier = {
+					tag = SWE
+					factor = 80
+				}
    			}
 
 			cancel_if_invalid = yes
@@ -48,7 +56,7 @@ ideas = {
 			}
 
 			ai_will_do = {
-   				factor = 1
+				factor = 0
    			}
 
 			cancel_if_invalid = yes

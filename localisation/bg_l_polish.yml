@@ -185,15 +185,15 @@
    spec_ops_security:0 "Bezpieczeństwo wewnętrzne"
 
    #MANUFACTORY
-   ap_manufactory:0 "Manufaktura Ziemi"
+   ap_manufactory:0 "Metoda produkcji"
 
    #LAWS
-   manufactory_light_tanks:0 "Czołgi lekkie"
-   manufactory_medium_tanks:0 "Czołgi średnie"
-   manufactory_heavy_tanks:0 "Czołgi ciężkie"
-   manufactory_super_heavy_tanks:0 "Czołgi superciężkie"
-   manufactory_amphibious_tanks:0 "Czołgi amfibie"
-   manufactory_railway_guns:0 "Działa kolejowe"
+   manufactory_light_tanks:0 "Czołg lekki"
+   manufactory_medium_tanks:0 "Czołg średni"
+   manufactory_heavy_tanks:0 "Czołg ciężki"
+   manufactory_super_heavy_tanks:0 "Super ciężki czołg"
+   manufactory_amphibious_tanks:0 "Czołg amfibii"
+   manufactory_railway_guns:0 "Pistolet kolejowy"
    manufactory_support_vehicles:0 "Wsparcie pojazdów"
     
    #VOLUNTEERS
@@ -219,37 +219,21 @@
    doctrine_navy_strike:0 "Uderzenia na bazy morskie"
 
    #NAVY TRAINING
-   np_training_navy:0 "Szkolenie floty"
+   np_sailor_training:0 "Szkolenie żeglarzy"
 
    #LAWS
-   training_navy_theory:0 "Nauczanie teorii"
-   training_navy_practic:0 "Praktyka"
-   training_navy_basic:0 "Same podstawy"
+   sailor_training_theory:0 "Nauczanie teorii"
+   sailor_training_practic:0 "Praktyka"
+   sailor_training_basic:0 "Same podstawy"
 
-   #FLEET PRODUCTION
-   np_navy_production:0 "Produkcja floty"
-
-   #LAWS
-   navy_production_normal:0 "Standardowe projekty"
-   navy_production_cheap:0 "Taniocha i słaba jakość"
-   navy_production_quality:0 "Produkcja jakościowa"
-   navy_production_no:0 "Zero produkcji"
-
-   #LIGHT SHIPS FOCUS
-   np_light_ships:0 "Lekkie statki"
+   #ADMIRAL TRAINING
+   np_admiral_training:0 "Szkolenie Admirałów"
 
    #LAWS
-   #light_ships_destroyers:0 "Skupienie na niszczycielach"
-   light_ships_submarines:0 "Skupienie na łodziach podwodnych"
-   light_ships_screen_ships:0 "Ekran ostrości statku"
-     
-   #HEAVY SHIPS FOCUS
-   np_heavy_ships:0 "Ciężkie statki"
-
-   #LAWS
-   #heavy_ships_cruisers:0 "Skupienie na krążownikach"
-   heavy_ships_capital_ships:0 "Koncentracja na statku kapitałowym"
-   heavy_ships_carriers:0 "Skupienie na lotniskowcach"
+   admiral_attack:0 "Atak"
+   admiral_defense:0 "Obrona"
+   admiral_maneuvering:0 "Manewrowanie"
+   admiral_coordination:0 "Koordynacja"
 
    #MARINES
    np_marine_corps:0 "Marines (piechota morska)"
@@ -258,6 +242,27 @@
    marine_corps_army:0 "Dowództwo armii"
    marine_corps_navy:0 "Dowództwo marynarki wojennej"
    marine_corps_spec:0 "Dowództwo sił specjalnych"
+
+   #SHIPYARD
+   np_shipyard:0 "Production Method"   
+
+   #LAWS
+   shipyard_submarine:0 "Łódź podwodna"
+   shipyard_destroyer:0 "Niszczyciel"
+   shipyard_screen_ship:0 "Ekran statku"
+   shipyard_carrier:0 "Nośnik"
+   shipyard_heavy_cruiser:0 "Ciężki krążownik"
+   shipyard_capital_ship:0 "Statek kapitałowy"
+   shipyard_support_ships:0 "Statki wsparcia"
+
+   #FLEET PRODUCTION
+   np_navy_production:0 "Produkcja floty"
+
+   #LAWS
+   navy_production_normal:0 "Standardowe projekty"
+   navy_production_cheap:0 "Taniocha i słaba jakość"
+   navy_production_quality:0 "Produkcja jakościowa"
+   navy_production_no:0 "Ograniczona produkcja"
 
    #----#
    #IDEAS

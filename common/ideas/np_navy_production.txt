@@ -14,27 +14,22 @@ ideas = {
 				navy_fuel_consumption_factor = -0.33
 				naval_speed_factor = -0.1
 			}
-	
-			cost = 75
-			
-			cancel_if_invalid = yes
 			
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 1
 				modifier = {
 				    OR = {
-					has_government = communism
-					has_government = democratic
+						has_government = communism
+						has_government = democratic
 					}
-					factor = 1
-					
+					factor = 40
 				}
-			}		
-			
+			}	
+
+			cancel_if_invalid = yes
 		}
 		
 		navy_production_quality = {
-
 			available = {
 		       
 			}
@@ -44,35 +39,23 @@ ideas = {
 			   naval_speed_factor = 0.1
 			   navy_fuel_consumption_factor = 0.2
 			}
-			
-			cost = 75
-
-			
-			cancel_if_invalid = yes
 
 			ai_will_do = {
-   				factor = 0.5
+   				factor = 1
 
 				modifier = {
 				    OR = {
-					has_government = fascism
-					has_government = neutrality
+						has_government = fascism
+						has_government = neutrality
 					}
-					factor = 0.5
-					
-				}
-				modifier = {
-				    OR = {
-					has_government = fascism
-					}
-					factor = 2.0
-					
+					factor = 40
 				}
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 		navy_production_normal = {
-
 			available = {
 				
 			}
@@ -82,79 +65,66 @@ ideas = {
 				navy_fuel_consumption_factor = -0.05
 			}
 			
-			cancel_if_invalid = yes
-			
-			cost = 75
-			
 			ai_will_do = {
-			
-   				factor = 0.5
-
-   				modifier = {
-				    
-					
-				}
+   				factor = 20
    			}
+
+			cancel_if_invalid = yes
 		}
 		
 		navy_production_no = {
-
 			available = {
 				
 			}
 			equipment_bonus = {
 				destroyer = {
 					instant = yes
-					build_cost_ic = -9.99
+					build_cost_ic = 1
 				}
 				heavy_cruiser = {
 					instant = yes
-					build_cost_ic = -9.99
+					build_cost_ic = 1
 				}
 				capital_ship = {
 					instant = yes
-					build_cost_ic = -9.99
+					build_cost_ic = 1
 				}
 				light_cruiser = {
 					instant = yes
-					build_cost_ic = -9.99
+					build_cost_ic = 1
 				}
 				sh_battleship = {
 					instant = yes
-					build_cost_ic = -9.99
+					build_cost_ic = 1
 				}
 				carrier = {
 					instant = yes
-					build_cost_ic = -9.99
+					build_cost_ic = 1
 				}
 				convoy = {
 					instant = yes
-					build_cost_ic = -9.99
+					build_cost_ic = 1
 				}
 				submarine = {
 					instant = yes
-					build_cost_ic = -9.99
+					build_cost_ic = 1
 				}
 			}
+
 			modifier = {
 				industrial_capacity_factory = 0.1
-			    political_power_factor = 0.2
+			    political_power_factor = 0.15
 			}
 			
-			cancel_if_invalid = yes
-			
-			cost = 75
-			
 			ai_will_do = {
-			
    				factor = 0
-
    				modifier = {
-				    
-					
+				    num_of_naval_factories < 0
+					factor = 40
 				}
    			}
+
+			cancel_if_invalid = yes
 		}
-		
 	}
 }

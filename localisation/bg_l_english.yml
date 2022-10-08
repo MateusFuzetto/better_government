@@ -185,15 +185,15 @@
     spec_ops_security:0 "Inner Security"
     
     #MANUFACTORY
-    ap_manufactory:0 "Land Manufactory"
+    ap_manufactory:0 "Production Method"
 
     #LAWS
-    manufactory_light_tanks:0 "Light Tanks"
-    manufactory_medium_tanks:0 "Medium Tanks"
-    manufactory_heavy_tanks:0 "Heavy Tanks"
-    manufactory_super_heavy_tanks:0 "Super Heavy Tanks"
-    manufactory_amphibious_tanks:0 "Amphibious Tanks"
-    manufactory_railway_guns:0 "Railway Guns"
+    manufactory_light_tanks:0 "Light Tank"
+    manufactory_medium_tanks:0 "Medium Tank"
+    manufactory_heavy_tanks:0 "Heavy Tank"
+    manufactory_super_heavy_tanks:0 "Super Heavy Tank"
+    manufactory_amphibious_tanks:0 "Amphibious Tank"
+    manufactory_railway_guns:0 "Railway Gun"
     manufactory_support_vehicles:0 "Support Vehicles"
 
     #VOLUNTEERS
@@ -219,37 +219,21 @@
     doctrine_navy_strike:0 "Base Strike"
 
     #NAVY TRAINING
-    np_training_navy:0 "Navy Training"
+    np_sailor_training:0 "Sailors Training"
 
     #LAWS
-    training_navy_theory:0 "Theoretical Studying"
-    training_navy_practic:0 "Practical Training"
-    training_navy_basic:0 "Basic Stuff"
+    sailor_training_theory:0 "Theoretical Studying"
+    sailor_training_practic:0 "Practical Training"
+    sailor_training_basic:0 "Basic Stuff"
 
-    #FLEET PRODUCTION
-    np_navy_production:0 "Fleet Production"
-
-    #LAWS
-    navy_production_normal:0 "Standard Designs"
-    navy_production_cheap:0 "Cheap Production"
-    navy_production_quality:0 "Quality Manufacturing"
-    navy_production_no:0 "No Production"
-
-    #LIGHT SHIPS FOCUS
-    np_light_ships:0 "Light Ships Focus"
+    #ADMIRAL TRAINING
+    np_admiral_training:0 "Admirals Training"
 
     #LAWS
-    #light_ships_destroyers:0 "Destroyers Focus"
-    light_ships_submarines:0 "Submarines Focus"
-    light_ships_screen_ships:0 "Screen Ship Focus"
-     
-    #HEAVY SHIPS FOCUS
-    np_heavy_ships:0 "Heavy Ships Focus"
-
-    #LAWS
-    #heavy_ships_cruisers:0 "Cruisers Focus"
-    heavy_ships_capital_ships:0 "Capital Ship Focus"
-    heavy_ships_carriers:0 "Carriers Focus"
+    admiral_attack:0 "Attack"
+    admiral_defense:0 "Defense"
+    admiral_maneuvering:0 "Maneuvering"
+    admiral_coordination:0 "Coordination"
 
     #MARINES
     np_marine_corps:0 "Marines"
@@ -258,6 +242,27 @@
     marine_corps_army:0 "Army Command"
     marine_corps_navy:0 "Navy Command"
     marine_corps_spec:0 "Spec-Ops Command"
+
+    #SHIPYARD
+    np_shipyard:0 "Production Method"   
+
+    #LAWS
+    shipyard_submarine:0 "Submarine"
+    shipyard_destroyer:0 "Destroyer"
+    shipyard_screen_ship:0 "Screen Ship"
+    shipyard_carrier:0 "Carrier"
+    shipyard_heavy_cruiser:0 "Heavy Cruiser"
+    shipyard_capital_ship:0 "Capital Ship"
+    shipyard_support_ships:0 "Support Ships"
+
+    #FLEET PRODUCTION
+    np_navy_production:0 "Fleet Production"
+
+    #LAWS
+    navy_production_normal:0 "Standard Designs"
+    navy_production_cheap:0 "Cheap Production"
+    navy_production_quality:0 "Quality Manufacturing"
+    navy_production_no:0 "Limited Production"
 
     #----#
     #IDEAS
@@ -387,4 +392,3 @@
     #----#
     BG_mercenary_limited_contract:0 "Add the limited divison Mercenary \n"
     BG_mercenary_extend_contract:0 "Extend the limit of the Mercenary division \n"
-    BG_mercenary_expeditionary_mercenaries:0 "Beware, you cannot remove this idea, after selected \n"

@@ -5,6 +5,8 @@ ideas = {
 		law = yes
 		
 		soldier_basic = {
+			available = {
+			}
 			
 			modifier = {
 				army_morale_factor = -0.05
@@ -24,6 +26,8 @@ ideas = {
 		}
 		
 		soldier_full = {
+			available = {
+			}
 
 			modifier = {
 				army_morale_factor = 0.10
@@ -44,7 +48,6 @@ ideas = {
 		
 		soldier_extended = {
 		    available = {
-				
 			}
 			
 			modifier = {
@@ -65,9 +68,7 @@ ideas = {
 		}
 		
 		soldier_baptism = {
-		
 			available = {
-				
 			}
 			
 			modifier = {
