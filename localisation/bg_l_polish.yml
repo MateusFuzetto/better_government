@@ -3,7 +3,7 @@
    #----#
    #IDEAS
    #----#
-   military_recruitment:0 "Rekrutacja wojskowa"
+   complementary_policies:0 "Polityki komplementarne"
 
    #HIGH COUNCIL
    mr_high_council:0 "Rada najwyższa"
@@ -17,6 +17,63 @@
    military_expansion:0 "Ekspansja militrna"
    nationalism_country:0 "Nacjonalizm"
    covert_ops:0 "Operacje tajne"
+
+   #HEAD OF STATE
+   cop_head_of_state:0 "Głowa stanu"
+
+   #LAWS
+   head_monarch:0 "Monarcha"
+   head_prime_minister:0 "Premier"
+   head_president:0 "Prezydent"
+   head_military:0 "Wojskowy"
+   head_chairman:0 "Przewodniczący"
+
+   #TAXATION POLICY
+   cop_taxation_policy:0 "Polityka podatkowa"
+
+   #LAWS
+   very_high_taxation:0 "Bardzo wysoko"
+   high_taxation:0 "Wysoki"
+   standard_taxation:0 "Standard"
+   low_taxation:0 "Niski"
+   very_low_taxation:0 "Bardzo niski"
+   communal_benefits:0 "Świadczenia komunalne"
+
+   #MILITARY BUDGET
+   cop_military_budget:0 "Military Budget"
+
+   #LAWS
+   one_percent:0 "One Percent"
+   two_percent:0 "Two Percent"
+   three_percent:0 "Three Percent"
+   five_percent:0 "Five Percent"
+   ten_percent:0 "Dziesięć procent"
+
+   #OUTPUTS FOCUS
+   cop_output_focus:0 "Wydajność"
+
+   #LAWS
+   output_army_dominant:0 "Dominacja armii"
+   output_army_strengthened:0 "Wzmocnienie armii"
+   output_balanced:0 "Zrównoważony"
+   output_navy_strengthened:0 "Wzmocnienie floty"
+   output_navy_dominant:0 "Dominująca marynarka wojenna"
+
+   #PENAL SYSTEM
+   cop_penal_system:0 "System karny"
+
+   #LAWS
+   penal_slavery:0 "Niewolnictwo"
+   penal_capital_punishment:0 "Kara śmierci"
+   penal_labour:0 "Praca"
+   penal_incarceration:0 "Uwięzienie"
+   penal_rehabilitation:0 "Rehabilitacja"
+   penal_recruitment:0 "Rekrutacja"
+
+   #----#
+   #IDEAS
+   #----#
+   military_recruitment:0 "Rekrutacja wojskowa"
 
    #SERVICE EXEMPTION
    mr_recruitment_standard:0 "Zwolnienie ze służby"
@@ -286,32 +343,14 @@
    training_air_practic:0 "Praktyka"
    training_air_basic:0 "Podstawy"
 
-   #PLANES PRODUCTION
-   aip_air_production:0 "Produkcja samolotów"
+   #ACE TRAINING
+   aip_ace_training:0 "Trening asów"
 
    #LAWS
-   air_production_normal:0 "Standardowe projekty"
-   air_production_cheap:0 "Tania produkcja"
-   air_production_quality:0 "Produkcja jakościowa"
-   air_production_no:0 "Zero produkcji"
-     
-   #LIGHT PLANES FOCUS
-   aip_light_planes:0 "Lekkie samoloty"
-    
-   #LAWS
-   light_planes_scout:0 "Skupienie Skauta"
-   light_planes_fighters:0 "Koncentracja nad myśliwcami"
-   light_planes_cas:0 "Skupienie się na CAS"
-    
-   #HEAVY PLANES FOCUS
-   aip_heavy_planes:0 "Samoloty ciężkie"
+   training_everyone_ace:0 "Nieregularny"
+   training_standard_ace:0 "Normalna"
+   training_elite_ace:0 "Elita"
 
-   #LAWS
-   heavy_planes_naval:0 "Skupienie bombowców morskich"
-   heavy_planes_strategic:0 "Skupienie na bombowcach strategicznych"
-   heavy_planes_tactical:0 "Skupienie na bombowcach taktycznych"
-   heavy_planes_transport:0 "Skupienie na transportowcach"
-     
    #PARATROOPERS
    aip_airborne:0 "Spadochroniarze"
 
@@ -320,6 +359,24 @@
    airborne_air:0 "Dowództwo sił powietrznych "
    airborne_spec:0 "Dowództwo sił specjalnych"
 
+   #FLEET FOCUS
+   aip_fleet:0 "Metoda produkcji"
+
+   #LAWS
+   small_planes:0 "Mały"
+   medium_planes:0 "Średni"
+   large_planes:0 "Wielki"
+   support_planes:0 "Pomoc"
+
+   #PLANES PRODUCTION
+   aip_air_production:0 "Produkcja samolotów"
+
+   #LAWS
+   air_production_normal:0 "Standardowe projekty"
+   air_production_cheap:0 "Tania produkcja"
+   air_production_quality:0 "Produkcja jakościowa"
+   air_production_no:0 "Ograniczona produkcja"
+   
    #----#
    #IDEAS
    #----#
@@ -334,15 +391,6 @@
    focus_defense:0 "Fortyfikacje"
    focus_infrastructure:0 "Infrastruktura"
    focus_resources:0 "Wydobywanie zasobów"
-
-   #OUTPUTS FOCUS
-   cp_output_focus:0 "Wydajność"
-
-   #LAWS
-   focus_army_dominant:0 "Dominacja armii"
-   focus_army_strengthened:0 "Wzmocnienie armii"
-   focus_navy_strengthened:0 "Wzmocnienie floty"
-   focus_navy_dominant:0 "Dominująca marynarka wojenna"
 
    #TRANSPORT FOCUS
    cp_transport_focus:0 "Koncentracja na transporcie"

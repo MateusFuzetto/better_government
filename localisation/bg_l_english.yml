@@ -3,10 +3,10 @@
     #----#
     #IDEAS
     #----#
-    military_recruitment:0 "Military Recruitment"
+    complementary_policies:0 "Complementaries Policies"
 
     #HIGH COUNCIL
-    mr_high_council:0 "High Council"
+    cop_high_council:0 "High Council"
 
     #LAWS
     planning_stage:0 "Planning Stage"
@@ -17,6 +17,63 @@
     military_expansion:0 "Military Expansion"
     nationalism_country:0 "Nationalism"
     covert_ops:0 "Covert Ops"
+
+    #HEAD OF STATE
+    cop_head_of_state:0 "Head of State"
+
+    #LAWS
+    head_monarch:0 "Monarch"
+    head_prime_minister:0 "Prime Minister"
+    head_president:0 "President"
+    head_military:0 "Military"
+    head_chairman:0 "Chairman"
+
+    #TAXATION POLICY
+    cop_taxation_policy:0 "Taxation Policy"
+
+    #LAWS
+    very_high_taxation:0 "Very High"
+    high_taxation:0 "High"
+    standard_taxation:0 "Standard"
+    low_taxation:0 "Low"
+    very_low_taxation:0 "Very Low"
+    communal_benefits:0 "Communal Benefits"
+
+    #MILITARY BUDGET
+    cop_military_budget:0 "Military Budget"
+
+    #LAWS
+    one_percent:0 "One Percent"
+    two_percent:0 "Two Percent"
+    three_percent:0 "Three Percent"
+    five_percent:0 "Five Percent"
+    ten_percent:0 "Ten Percent"
+
+    #OUTPUTS FOCUS
+    cop_output_focus:0 "Output Focus"
+
+    #LAWS
+    output_army_dominant:0 "Army Dominant"
+    output_army_strengthened:0 "Army Strengthened"
+    output_balanced:0 "Balanced"
+    output_navy_strengthened:0 "Navy Strengthened"
+    output_navy_dominant:0 "Navy Dominant"
+
+    #PENAL SYSTEM
+    cop_penal_system:0 "Penal System"
+
+    #LAWS
+    penal_slavery:0 "Slavery"
+    penal_capital_punishment:0 "Capital Punishment"
+    penal_labour:0 "Labour"
+    penal_incarceration:0 "Incarceration"
+    penal_rehabilitation:0 "Rehabilitation"
+    penal_recruitment:0 "Recruitment"
+
+    #----#
+    #IDEAS
+    #----#
+    military_recruitment:0 "Military Recruitment"
 
     #SERVICE EXEMPTION
     mr_recruitment_standard:0 "Service Exemption"
@@ -286,32 +343,14 @@
     training_air_practic:0 "Practical Training"
     training_air_basic:0 "Basic Stuff"
 
-    #PLANES PRODUCTION
-    aip_air_production:0 "Planes Production"
+    #ACE TRAINING
+    aip_ace_training:0 "Ace Training"
 
     #LAWS
-    air_production_normal:0 "Standard Designs"
-    air_production_cheap:0 "Cheap Production"
-    air_production_quality:0 "Quality Manufacturing"
-    air_production_no:0 "No Production"
-     
-    #LIGHT PLANES FOCUS
-    aip_light_planes:0 "Light Planes Focus"
-    
-    #LAWS
-    light_planes_scout:0 "Scout Focus"
-    light_planes_fighters:0 "Fighter Focus"
-    light_planes_cas:0 "CAS Focus"
-    
-    #HEAVY PLANES FOCUS
-    aip_heavy_planes:0 "Heavy Planes Focus"
+    training_everyone_ace:0 "Irregular"
+    training_standard_ace:0 "Normal"
+    training_elite_ace:0 "Elite"
 
-    #LAWS
-    heavy_planes_naval:0 "Naval Bombers Focus"
-    heavy_planes_strategic:0 "Strategic Bomber Focus"
-    heavy_planes_tactical:0 "Tactical Bomber Focus"
-    heavy_planes_transport:0 "Transport Focus"
-     
     #PARATROOPERS
     aip_airborne:0 "Paratroopers"
 
@@ -320,6 +359,24 @@
     airborne_air:0 "Airforce Command"
     airborne_spec:0 "Spec-Ops Command"
 
+    #FLEET FOCUS
+    aip_fleet:0 "Production Method"
+
+    #LAWS
+    small_planes:0 "Small"
+    medium_planes:0 "Medium"
+    large_planes:0 "Large"
+    support_planes:0 "Support"
+
+    #PLANES PRODUCTION
+    aip_air_production:0 "Planes Production"
+
+    #LAWS
+    air_production_normal:0 "Standard Designs"
+    air_production_cheap:0 "Cheap Production"
+    air_production_quality:0 "Quality Manufacturing"
+    air_production_no:0 "Limited Production"
+    
     #----#
     #IDEAS
     #----#
@@ -334,15 +391,6 @@
     focus_defense:0 "Defenses"
     focus_infrastructure:0 "Infrastructure"
     focus_resources:0 "Resource Extraction"
-
-    #OUTPUTS FOCUS
-    cp_output_focus:0 "Output Focus"
-
-    #LAWS
-    focus_army_dominant:0 "Army Dominant"
-    focus_army_strengthened:0 "Army Strengthened"
-    focus_navy_strengthened:0 "Navy Strengthened"
-    focus_navy_dominant:0 "Navy Dominant"
 
     #TRANSPORT FOCUS
     cp_transport_focus:0 "Transport Focus"

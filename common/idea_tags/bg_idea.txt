@@ -2,11 +2,16 @@ idea_categories = {
 
 	complementary_policies = {
 		slot = cop_high_council
+		slot = cop_head_of_state
+		slot = cop_taxation_policy
+		slot = cop_military_budget
+		slot = cop_output_focus
+		slot = cop_penal_system
 
 		ledger = civilian
 		
 		cost = 50
-		removal_cost = -1
+		removal_cost = 25
 	}
 
 	military_recruitment = {
@@ -68,15 +73,15 @@ idea_categories = {
 	air_policies = {
 		slot = aip_doctrine_air
 		slot = aip_training_air
-		slot = aip_air_production
-		slot = aip_light_planes
-		slot = aip_heavy_planes
+		slot = aip_ace_training
 		slot = aip_airborne
+		slot = aip_fleet
+		slot = aip_air_production
 
 		ledger = civilian
 		
-		cost = 0
-		removal_cost = 0
+		cost = 50
+		removal_cost = 25
 	}
 
 	civilian_policies = {

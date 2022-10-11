@@ -123,7 +123,7 @@ ideas = {
 				AND = {
 					has_war = yes
 					surrender_progress > 0.25
-					has_war_support > 0.60
+					has_war_support > 0.6
 				}
 			}
 			
@@ -157,7 +157,7 @@ ideas = {
 				AND = {
 					has_war = yes
 					surrender_progress > 0.35
-					has_war_support > 0.70
+					has_war_support > 0.7
 				}
 			}
 			

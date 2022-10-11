@@ -1,4 +1,30 @@
 spriteTypes = {
+	#Government Policies
+	spriteType = {
+		name = "GFX_idea_slot_cop_high_council"
+		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_cop_head_of_state"
+		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_cop_taxation_policy"
+		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_cop_military_budget"
+		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_cop_output_focus"
+		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_cop_penal_system"
+		texturefile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
 	#High Council
 	spriteType = {
 		name = "GFX_idea_planning_stage"
@@ -31,6 +57,124 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_covert_ops"
 		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_covert_ops.dds"
+	}
+
+	#Head of State
+	spriteType = {
+		name = "GFX_idea_head_monarch"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_head_monarch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_head_prime_minister"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_head_prime_minister.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_head_president"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_head_president.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_head_military"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_head_military.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_head_chairman"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_head_chairman.dds"
+	}
+
+	#Taxation Policy
+	spriteType = {
+		name = "GFX_idea_very_high_taxation"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_very_high_taxation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_high_taxation"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_high_taxation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_standard_taxation"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_standard_taxation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_taxation"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_low_taxation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_very_low_taxation"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_very_low_taxation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communal_benefits"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_communal_benefits.dds"
+	}
+
+	#Military Budget
+	spriteType = {
+		name = "GFX_idea_one_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_one_percent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_two_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_two_percent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_three_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_three_percent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_five_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_five_percent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ten_percent"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_ten_percent.dds"
+	}
+
+	#Output Focus
+	spriteType = {
+		name = "GFX_idea_output_army_dominant"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_output_army_dominant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_output_army_strengthened"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_output_army_strengthened.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_output_balanced"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_output_balanced.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_output_navy_strengthened"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_output_navy_strengthened.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_output_navy_dominant"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_output_navy_dominant.dds"
+	}
+
+	#Penal System
+	spriteType = {
+		name = "GFX_idea_penal_slavery"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_penal_slavery.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_penal_capital_punishment"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_penal_capital_punishment.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_penal_labour"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_penal_labour.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_penal_incarceration"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_penal_incarceration.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_penal_rehabilitation"
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_penal_rehabilitation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_penal_recruitment"	
+		texturefile = "gfx/interface/ideas/laws/complementary_policies/cop_penal_recruitment.dds"
 	}
 
 	#Service Exemption
@@ -633,19 +777,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/idea_slot_aircraft_manufacturer.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_aip_air_production"
-		texturefile = "gfx/interface/idea_slot_aircraft_manufacturer.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_slot_aip_light_planes"
-		texturefile = "gfx/interface/idea_slot_aircraft_manufacturer.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_slot_aip_heavy_planes"
+		name = "GFX_idea_slot_aip_ace_training"
 		texturefile = "gfx/interface/idea_slot_aircraft_manufacturer.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_slot_aip_airborne"
+		texturefile = "gfx/interface/idea_slot_aircraft_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_aip_fleet"
+		texturefile = "gfx/interface/idea_slot_aircraft_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_aip_air_production"
 		texturefile = "gfx/interface/idea_slot_aircraft_manufacturer.dds"
 	}
 
@@ -681,6 +825,53 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/air_policies/aip_training_air_basic.dds"
 	}
 
+	#Ace Training
+	spriteType = {
+		name = "GFX_idea_training_everyone_ace"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_training_everyone_ace.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_training_standard_ace"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_training_standard_ace.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_training_elite_ace"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_training_elite_ace.dds"
+	}
+
+	#Fleet Focus
+	spriteType = {
+		name = "GFX_idea_small_planes"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_small_planes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_medium_planes"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_medium_planes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_large_planes"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_large_planes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_support_planes"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_support_planes.dds"
+	}
+
+	#Paratroopers
+	spriteType = {
+		name = "GFX_idea_airborne_army"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_airborne_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_airborne_air"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_airborne_air.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_airborne_spec"
+		texturefile = "gfx/interface/ideas/laws/air_policies/aip_airborne_spec.dds"
+	}
+
+
 	#Planes Production
 	spriteType = {
 		name = "GFX_idea_air_production_normal"
@@ -697,52 +888,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_air_production_no"
 		texturefile = "gfx/interface/ideas/laws/air_policies/aip_air_production_no.dds"
-	}
-
-	#Light Planes Focus
-	spriteType = {
-		name = "GFX_idea_light_planes_scout"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_light_planes_scout.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_light_planes_fighters"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_light_planes_fighters.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_light_planes_cas"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_light_planes_cas.dds"
-	}
-
-	#Heavy Planes Focus
-	spriteType = {
-		name = "GFX_idea_heavy_planes_naval"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_heavy_planes_naval.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_heavy_planes_strategic"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_heavy_planes_strategic.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_heavy_planes_tactical"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_heavy_planes_tactical.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_heavy_planes_transport"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_heavy_planes_transport.dds"
-	}
-
-	#Paratroopers
-	spriteType = {
-		name = "GFX_idea_airborne_army"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_airborne_army.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_airborne_air"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_airborne_air.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_airborne_spec"
-		texturefile = "gfx/interface/ideas/laws/air_policies/aip_airborne_spec.dds"
 	}
 
 	#Civilian Policies
@@ -792,24 +937,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_focus_resources"
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_build_focus_resources.dds"
-	}
-
-	#Output Focus
-	spriteType = {
-		name = "GFX_idea_focus_army_dominant"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_output_army_dominant.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_focus_army_strengthened"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_output_army_strengthened.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_focus_navy_strengthened"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_output_navy_strengthened.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_focus_navy_dominant"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_output_navy_dominant.dds"
 	}
 
 	#Transport Focus

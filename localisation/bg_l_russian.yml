@@ -3,7 +3,7 @@
     #----#
     #IDEAS
     #----#
-    military_recruitment:0 "Военная вербовка"
+    complementary_policies:0 "Дополнительные правила"
 
     #HIGH COUNCIL
     mr_high_council:0 "Верховное Собрание"
@@ -17,6 +17,63 @@
     military_expansion:0 "Военная экспансия"
     nationalism_country:0 "Национализм"
     covert_ops:0 "Тайные оперативники"
+
+    #HEAD OF STATE
+    cop_head_of_state:0 "Глава государства"
+
+    #LAWS
+    head_monarch:0 "монарх"
+    head_prime_minister:0 "премьер-министр"
+    head_president:0 "президент"
+    head_military:0 "Военный"
+    head_chairman:0 "председатель"
+
+    #TAXATION POLICY
+    cop_taxation_policy:0 "Налоговая политика"
+
+    #LAWS
+    very_high_taxation:0 "Очень высоко"
+    high_taxation:0 "Высокая"
+    standard_taxation:0 "Стандарт"
+    low_taxation:0 "Низкий"
+    very_low_taxation:0 "Очень низкий"
+    communal_benefits:0 "Коммунальные льготы"
+
+    #MILITARY BUDGET
+    cop_military_budget:0 "Военный бюджет"
+
+    #LAWS
+    one_percent:0 "Один процент"
+    two_percent:0 "Два процента"
+    three_percent:0 "Три процента"
+    five_percent:0 "Пять процентов"
+    ten_percent:0 "Десять процентов"
+
+    #OUTPUTS FOCUS
+    cop_output_focus:0 "Производство"
+
+    #LAWS
+    output_army_dominant:0 "Ориентация на армию"
+    output_army_strengthened:0 "Предпочтение армии"
+    output_balanced:0 "Сбалансированный"
+    output_navy_strengthened:0 "Предпочтение ВМФ"
+    output_navy_dominant:0 "Ориентация на ВМФ"
+
+    #PENAL SYSTEM
+    cop_penal_system:0 "Пенитенциарная система"
+
+    #LAWS
+    penal_slavery:0 "Рабство"
+    penal_capital_punishment:0 "Смертная казнь"
+    penal_labour:0 "Труд, работа"
+    penal_incarceration:0 "Заключение"
+    penal_rehabilitation:0 "Реабилитация"
+    penal_recruitment:0 "Прием на работу"
+
+    #----#
+    #IDEAS
+    #----#
+    military_recruitment:0 "Военная вербовка"
 
     #SERVICE EXEMPTION
     mr_recruitment_standard:0 "Ограничения по службе"
@@ -286,32 +343,14 @@
     training_air_practic:0 "Практическая"
     training_air_basic:0 "Базовая"
 
-    #PLANES PRODUCTION
-    aip_air_production:0 "Авиастроение"
+    #ACE TRAINING
+    aip_ace_training:0 "Тренировка асов"
 
     #LAWS
-    air_production_normal:0 "Стандартное"
-    air_production_cheap:0 "Дешёвое"
-    air_production_quality:0 "Качественное"
-    air_production_no:0 "Нет"
-     
-    #LIGHT PLANES FOCUS
-    aip_light_planes:0 "Лёгкие самолёты"
-    
-    #LAWS
-    light_planes_scout:0 "Разведчик Фокус"
-    light_planes_fighters:0 "Упор на истребители"
-    light_planes_cas:0 "Упор на штурмовики"
-    
-    #HEAVY PLANES FOCUS
-    aip_heavy_planes:0 "Тяжёлые самолёты"
+    training_everyone_ace:0 "Нерегулярный"
+    training_standard_ace:0 "Обычный"
+    training_elite_ace:0 "Элита"
 
-    #LAWS
-    heavy_planes_naval:0 "Морские бомбардировщики Фокус"
-    heavy_planes_strategic:0 "Упор на страт. бомбардировщики"
-    heavy_planes_tactical:0 "Упор на такт. бомбардировщики"
-    heavy_planes_transport:0 "Упор на транспорт"
-     
     #PARATROOPERS
     aip_airborne:0 "ВДВ"
 
@@ -319,6 +358,24 @@
     airborne_army:0 "Подчиняются армии"
     airborne_air:0 "Подчиняются ВВС"
     airborne_spec:0 "Подчиняются спецвойскам"
+
+    #FLEET FOCUS
+    aip_fleet:0 "Метод производства"
+
+    #LAWS
+    small_planes:0 "Маленький"
+    medium_planes:0 "Середина"
+    large_planes:0 "Большой"
+    support_planes:0 "Поддерживать"
+
+    #PLANES PRODUCTION
+    aip_air_production:0 "Авиастроение"
+
+    #LAWS
+    air_production_normal:0 "Стандартное"
+    air_production_cheap:0 "Дешёвое"
+    air_production_quality:0 "Качественное"
+    air_production_no:0 "Ограниченное производство"
 
     #----#
     #IDEAS
@@ -334,15 +391,6 @@
     focus_defense:0 "Оборона"
     focus_infrastructure:0 "Инфраструктура"
     focus_resources:0 "Добыча ресурсов"
-
-    #OUTPUTS FOCUS
-    cp_output_focus:0 "Производство"
-
-    #LAWS
-    focus_army_dominant:0 "Ориентация на армию"
-    focus_army_strengthened:0 "Предпочтение армии"
-    focus_navy_strengthened:0 "Предпочтение ВМФ"
-    focus_navy_dominant:0 "Ориентация на ВМФ"
 
     #TRANSPORT FOCUS
     cp_transport_focus:0 "Транспорт"
