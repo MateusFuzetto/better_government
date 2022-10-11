@@ -392,42 +392,59 @@
     focus_infrastructure:0 "Инфраструктура"
     focus_resources:0 "Добыча ресурсов"
 
-    #TRANSPORT FOCUS
-    cp_transport_focus:0 "Транспорт"
+    #WORK HOUR LIMIT
+    cp_work_hour_limit:0 "Ограничение рабочего времени"
 
     #LAWS
-    focus_motorized:0 "Моторизированный"
-    focus_train:0 "Поезда"
-    focus_transport_plane:0 "Самолёты"
-    focus_thoroughbred_horses:0 "Тягловые лошади"
+    hour_no_limit:0 "Нет ограничения по часам"
+    hour_limit_14:0 "14-часовой лимит"
+    hour_limit_12:0 "12-часовой лимит"
+    hour_limit_10:0 "10-часовой лимит"
+    hour_limit_8:0 "8-часовой лимит"
 
-    #CITIZEN ASSEMBLY FOCUS
-    cp_citizen_assembly_focus:0 "Гражданское собрание"
-
-    #LAWS
-    assembly_focus_comunist:0 "Коммунистическое"
-    assembly_focus_democratic:0 "Демократическое"
-    assembly_focus_facist:0 "Фашистское"
-    assembly_focus_neutral:0 "Нейтральное"
-
-    #SPECIAL BUILDING CONSTRUCT
-    cp_special_building_construct:0 "Специальные постройки"
+    #EDUCATION
+    cp_education:0 "Образование"
 
     #LAWS
-    special_building_construct_banks:0 "Банки"
-    special_building_construct_barracks:0 "Бараки"
-    special_building_construct_hospitals:0 "Больницы"
-    special_building_construct_schools:0 "Школы"
+    education_priveleged:0 "Привилегированный"
+    education_cheap:0 "Дешевый"
+    education_religious:0 "религиозный"
+    education_military:0 "Военный"
+    education_propagandized:0 "пропагандируется"
+    education_standard:0 "Стандарт"
+    education_excessive:0 "Излишний"
 
-    #Synthetic Resources Focus
-    cp_synthetic_resources_focus:0 "Синтетические ресурсы"
+    #HEALTHCARE
+    cp_healthcare:0 "Здравоохранение"
 
-    synthetic_resources_focus_aluminium:0 "Алюминий"
-    synthetic_resources_focus_chromium:0 "Хром"
-    synthetic_resources_focus_oil:0 "Нефть"
-    synthetic_resources_focus_rubber:0 "Резина"
-    synthetic_resources_focus_steel:0 "Сталь"
-    synthetic_resources_focus_tungsten:0 "Вольфрам"
+    #LAWS
+    healthcare_no:0 "Нет"
+    healthcare_private:0 "Частный"
+    healthcare_public_bad:0 "Общественный Плохой"
+    healthcare_public_decent:0 "Публичное приличное"
+    healthcare_public_good:0 "Общественное благо"
+
+    #Synthetic Resources Focus - 1
+    cp_synthetic_resources_focus_1:0 "Фокус синтетических ресурсов - 1"
+
+    #LAWS
+    synthetic_resources_focus_aluminium_1:0 "Алюминий"
+    synthetic_resources_focus_chromium_1:0 "Хром"
+    synthetic_resources_focus_oil_1:0 "Масло"
+    synthetic_resources_focus_rubber_1:0 "Резина"
+    synthetic_resources_focus_steel_1:0 "Стали"
+    synthetic_resources_focus_tungsten_1:0 "Tungsten"
+
+    #Synthetic Resources Focus - 2
+    cp_synthetic_resources_focus_2:0 "Фокус синтетических ресурсов - 2"
+
+    #LAWS
+    synthetic_resources_focus_aluminium_2:0 "Алюминий"
+    synthetic_resources_focus_chromium_2:0 "Хром"
+    synthetic_resources_focus_oil_2:0 "Масло"
+    synthetic_resources_focus_rubber_2:0 "Резина"
+    synthetic_resources_focus_steel_2:0 "Стали"
+    synthetic_resources_focus_tungsten_2:0 "Вольфрам"
 
     #----#
     #UNITS

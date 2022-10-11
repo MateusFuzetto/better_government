@@ -1,16 +1,13 @@
 ideas = {
 
-	cp_synthetic_resources_focus = { 
-	
+	cp_synthetic_resources_focus_2 = { 
 		law = yes
 		
-		synthetic_resources_focus_aluminium = {
+		synthetic_resources_focus_aluminium_2 = {
 		    available = {
-				
 			}
 			
 			modifier = {
-				
 			}
 
 			on_add = {
@@ -28,23 +25,19 @@ ideas = {
 					amount = -3
 				}
 			}
-
-			cost = 75
-			
-			cancel_if_invalid = yes
 			
 			ai_will_do = {
    				factor = 1
    			}
+
+			cancel_if_invalid = yes
 		}
 
-		synthetic_resources_focus_chromium = {
+		synthetic_resources_focus_chromium_2 = {
 		    available = {
-				
 			}
 			
 			modifier = {
-				
 			}
 
 			on_add = {
@@ -62,23 +55,19 @@ ideas = {
 					amount = -3
 				}
 			}
-
-			cost = 75
-			
-			cancel_if_invalid = yes
 			
 			ai_will_do = {
    				factor = 1
    			}
+
+			cancel_if_invalid = yes
 		}
 
-		synthetic_resources_focus_oil = {
+		synthetic_resources_focus_oil_2 = {
 		    available = {
-				
 			}
 			
 			modifier = {
-				
 			}
 
 			on_add = {
@@ -97,22 +86,18 @@ ideas = {
 				}
 			}
 
-			cost = 75
-			
-			cancel_if_invalid = yes
-			
 			ai_will_do = {
    				factor = 1
    			}
+
+			cancel_if_invalid = yes
 		}
 
-		synthetic_resources_focus_rubber = {
+		synthetic_resources_focus_rubber_2 = {
 		    available = {
-				
 			}
 			
 			modifier = {
-				
 			}
 
 			on_add = {
@@ -130,26 +115,20 @@ ideas = {
 					amount = -3
 				}
 			}
-
-			cost = 75
-			
-			cancel_if_invalid = yes
 			
 			ai_will_do = {
-   				factor = 1
+   				factor = 40
    			}
+
+			cancel_if_invalid = yes
 		}
 
-		synthetic_resources_focus_steel = {
+		synthetic_resources_focus_steel_2 = {
 		    available = {
-				
 			}
 			
 			modifier = {
-				
 			}
-
-			cost = 75
 
 			on_add = {
 				modify_building_resources = {
@@ -167,20 +146,18 @@ ideas = {
 				}
 			}
 			
-			cancel_if_invalid = yes
-			
 			ai_will_do = {
-   				factor = 1
+   				factor = 40
    			}
+
+			cancel_if_invalid = yes
 		}
 
-		synthetic_resources_focus_tungsten = {
+		synthetic_resources_focus_tungsten_2 = {
 		    available = {
-				
 			}
 			
 			modifier = {
-				
 			}
 
 			on_add = {
@@ -198,14 +175,12 @@ ideas = {
 					amount = -3
 				}
 			}
-
-			cost = 75
-			
-			cancel_if_invalid = yes
 			
 			ai_will_do = {
-   				factor = 1
+   				factor = 40
    			}
+
+			cancel_if_invalid = yes
 		}
 	}
 }

@@ -86,15 +86,15 @@ idea_categories = {
 
 	civilian_policies = {
 		slot = cp_build_focus
-		slot = cp_output_focus
-		slot = cp_transport_focus
-		slot = cp_citizen_assembly_focus
-		slot = cp_special_building_construct
-		slot = cp_synthetic_resources_focus
+		slot = cp_work_hour_limit
+		slot = cp_education
+		slot = cp_healthcare
+		slot = cp_synthetic_resources_focus_1
+		slot = cp_synthetic_resources_focus_2
 
 		ledger = civilian
 		
-		cost = 0
-		removal_cost = 0
+		cost = 50
+		removal_cost = 25
 	}
 }

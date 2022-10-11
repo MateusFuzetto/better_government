@@ -896,23 +896,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_cp_output_focus"
+		name = "GFX_idea_slot_cp_work_hour_limit"
 		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_cp_transport_focus"
+		name = "GFX_idea_slot_cp_education"
 		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_cp_citizen_assembly_focus"
+		name = "GFX_idea_slot_cp_healthcare"
 		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_cp_special_building_construct"
+		name = "GFX_idea_slot_cp_synthetic_resources_focus_1"
 		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_cp_synthetic_resources_focus"
+		name = "GFX_idea_slot_cp_synthetic_resources_focus_2"
 		texturefile = "gfx/interface/idea_slot_industrial_concern.dds"
 	}
 
@@ -939,83 +939,129 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_build_focus_resources.dds"
 	}
 
-	#Transport Focus
+	#Work Hour Limit
 	spriteType = {
-		name = "GFX_idea_focus_motorized"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_transport_focus_motorized.dds"
+		name = "GFX_idea_hour_no_limit"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_no_hour_limit.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_focus_train"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_transport_focus_train.dds"
+		name = "GFX_idea_hour_limit_14"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_14_hour_limit.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_focus_transport_plane"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_transport_focus_transport_plane.dds"
+		name = "GFX_idea_hour_limit_12"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_12_hour_limit.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_focus_thoroughbred_horses"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_transport_focus_thoroughbred_horses.dds"
-	}
-
-	#Citizen Assembly
-	spriteType = {
-		name = "GFX_idea_assembly_focus_comunist"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_citizen_assembly_focus_comunist.dds"
+		name = "GFX_idea_hour_limit_10"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_10_hour_limit.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_assembly_focus_democratic"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_citizen_assembly_focus_democratic.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_assembly_focus_facist"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_citizen_assembly_focus_facist.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_assembly_focus_neutral"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_citizen_assembly_focus_neutral.dds"
+		name = "GFX_idea_hour_limit_8"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_8_hour_limit.dds"
 	}
 
-	#Special Buildings
+	#Education
 	spriteType = {
-		name = "GFX_idea_special_building_construct_banks"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_special_building_construct_banks.dds"
+		name = "GFX_idea_education_priveleged"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_education_priveleged.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_special_building_construct_barracks"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_special_building_construct_barracks.dds"
+		name = "GFX_idea_education_cheap"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_education_cheap.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_special_building_construct_hospitals"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_special_building_construct_hospitals.dds"
+		name = "GFX_idea_education_religious"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_education_religious.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_special_building_construct_schools"
-		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_special_building_construct_schools.dds"
+		name = "GFX_idea_education_military"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_education_military.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_education_propagandized"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_education_propagandized.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_education_standard"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_education_standard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_education_excessive"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_education_excessive.dds"
 	}
 
-	#Special Buildings
+	#Healthcare
 	spriteType = {
-		name = "GFX_idea_synthetic_resources_focus_aluminium"
+		name = "GFX_idea_healthcare_no"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_healthcare_no.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_healthcare_private"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_healthcare_private.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_healthcare_public_bad"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_healthcare_public_bad.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_healthcare_public_decent"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_healthcare_public_decent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_healthcare_public_good"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_healthcare_public_good.dds"
+	}
+
+	#Synthetic Resources - 1
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_aluminium_1"
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_aluminium.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_synthetic_resources_focus_chromium"
+		name = "GFX_idea_synthetic_resources_focus_chromium_1"
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_chromium.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_synthetic_resources_focus_oil"
+		name = "GFX_idea_synthetic_resources_focus_oil_1"
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_oil.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_synthetic_resources_focus_rubber"
+		name = "GFX_idea_synthetic_resources_focus_rubber_1"
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_rubber.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_synthetic_resources_focus_steel"
+		name = "GFX_idea_synthetic_resources_focus_steel_1"
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_steel.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_synthetic_resources_focus_tungsten"
+		name = "GFX_idea_synthetic_resources_focus_tungsten_1"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_tungsten.dds"
+	}
+
+	#Synthetic Resources - 2
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_aluminium_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_aluminium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_chromium_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_chromium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_oil_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_rubber_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_rubber.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_steel_2"
+		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_steel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synthetic_resources_focus_tungsten_2"
 		texturefile = "gfx/interface/ideas/laws/civilian_policies/cp_synthetic_resources_focus_tungsten.dds"
 	}
 }

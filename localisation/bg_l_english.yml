@@ -392,42 +392,59 @@
     focus_infrastructure:0 "Infrastructure"
     focus_resources:0 "Resource Extraction"
 
-    #TRANSPORT FOCUS
-    cp_transport_focus:0 "Transport Focus"
+    #WORK HOUR LIMIT
+    cp_work_hour_limit:0 "Work Hour Limit"
 
     #LAWS
-    focus_motorized:0 "Motorizeds"
-    focus_train:0 "Trains"
-    focus_transport_plane:0 "Transport Plane"
-    focus_thoroughbred_horses:0 "Thoroughbred Horses"
+    hour_no_limit:0 "No Hour Limit"
+    hour_limit_14:0 "14 Hour Limit"
+    hour_limit_12:0 "12 Hour Limit"
+    hour_limit_10:0 "10 Hour Limit"
+    hour_limit_8:0 "8 Hour Limit"
 
-    #CITIZEN ASSEMBLY FOCUS
-    cp_citizen_assembly_focus:0 "Citizen Assembly"
-
-    #LAWS
-    assembly_focus_comunist:0 "Communist Assembly"
-    assembly_focus_democratic:0 "Democratic Assembly"
-    assembly_focus_facist:0 "Fascist Assembly"
-    assembly_focus_neutral:0 "Neutral Assembly"
-
-    #SPECIAL BUILDING CONSTRUCT
-    cp_special_building_construct:0 "Special Buildings"
+    #EDUCATION
+    cp_education:0 "Education"
 
     #LAWS
-    special_building_construct_banks:0 "Banks"
-    special_building_construct_barracks:0 "Barracks"
-    special_building_construct_hospitals:0 "Hospitals"
-    special_building_construct_schools:0 "Schools"
+    education_priveleged:0 "Priveleged"
+    education_cheap:0 "Cheap"
+    education_religious:0 "Religious"
+    education_military:0 "Military"
+    education_propagandized:0 "Propagandized"
+    education_standard:0 "Standard"
+    education_excessive:0 "Excessive"
 
-    #Synthetic Resources Focus
-    cp_synthetic_resources_focus:0 "Synthetic Resources Focus"
+    #HEALTHCARE
+    cp_healthcare:0 "Healthcare"
 
-    synthetic_resources_focus_aluminium:0 "Aluminium"
-    synthetic_resources_focus_chromium:0 "Chromium"
-    synthetic_resources_focus_oil:0 "Oil"
-    synthetic_resources_focus_rubber:0 "Rubber"
-    synthetic_resources_focus_steel:0 "Steel"
-    synthetic_resources_focus_tungsten:0 "Tungsten"
+    #LAWS
+    healthcare_no:0 "No"
+    healthcare_private:0 "Private"
+    healthcare_public_bad:0 "Public Bad"
+    healthcare_public_decent:0 "Public Decent"
+    healthcare_public_good:0 "Public Good"
+
+    #Synthetic Resources Focus - 1
+    cp_synthetic_resources_focus_1:0 "Synthetic Resources Focus - 1"
+
+    #LAWS
+    synthetic_resources_focus_aluminium_1:0 "Aluminium"
+    synthetic_resources_focus_chromium_1:0 "Chromium"
+    synthetic_resources_focus_oil_1:0 "Oil"
+    synthetic_resources_focus_rubber_1:0 "Rubber"
+    synthetic_resources_focus_steel_1:0 "Steel"
+    synthetic_resources_focus_tungsten_1:0 "Tungsten"
+
+    #Synthetic Resources Focus - 2
+    cp_synthetic_resources_focus_2:0 "Synthetic Resources Focus - 2"
+
+    #LAWS
+    synthetic_resources_focus_aluminium_2:0 "Aluminium"
+    synthetic_resources_focus_chromium_2:0 "Chromium"
+    synthetic_resources_focus_oil_2:0 "Oil"
+    synthetic_resources_focus_rubber_2:0 "Rubber"
+    synthetic_resources_focus_steel_2:0 "Steel"
+    synthetic_resources_focus_tungsten_2:0 "Tungsten"
 
     #----#
     #UNITS

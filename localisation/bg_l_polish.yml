@@ -392,42 +392,59 @@
    focus_infrastructure:0 "Infrastruktura"
    focus_resources:0 "Wydobywanie zasobów"
 
-   #TRANSPORT FOCUS
-   cp_transport_focus:0 "Koncentracja na transporcie"
+   #WORK HOUR LIMIT
+   cp_work_hour_limit:0 "Limit godzin pracy"
 
    #LAWS
-   focus_motorized:0 "Zmotoryzowani"
-   focus_train:0 "Pociągi"
-   focus_transport_plane:0 "Samolot transportowy"
-   focus_thoroughbred_horses:0 "Konie pełnej krwi angielskiej"
+   hour_no_limit:0 "Brak limitu godzin"
+   hour_limit_14:0 "Limit 14 godzin"
+   hour_limit_12:0 "Limit 12 godzin"
+   hour_limit_10:0 "Limit 10 godzin"
+   hour_limit_8:0 "Limit 8 godzin"
 
-   #CITIZEN ASSEMBLY FOCUS
-   cp_citizen_assembly_focus:0 "Zgromadzenie Obywatelskie"
-
-   #LAWS
-   assembly_focus_comunist:0 "Zgromadzenie Komunistyczne"
-   assembly_focus_democratic:0 "Zgromadzenie Demokratów"
-   assembly_focus_facist:0 "Zgromadzenie faszystowskie"
-   assembly_focus_neutral:0 "Zgromadzenie bez powiązań"
-
-   #SPECIAL BUILDING CONSTRUCT
-   cp_special_building_construct:0 "Budynki specjalne"
+   #EDUCATION
+   cp_education:0 "Edukacja"
 
    #LAWS
-   special_building_construct_banks:0 "Banki"
-   special_building_construct_barracks:0 "Koszary"
-   special_building_construct_hospitals:0 "Szpitale"
-   special_building_construct_schools:0 "Szkoły"
+   education_priveleged:0 "Uprzywilejowany"
+   education_cheap:0 "Tani"
+   education_religious:0 "Religijny"
+   education_military:0 "Wojskowy"
+   education_propagandized:0 "Propagowane"
+   education_standard:0 "Standard"
+   education_excessive:0 "Nadmierny"
 
-   #Synthetic Resources Focus
-   cp_synthetic_resources_focus:0 "Skupienie na zasobach syntetycznych"
+   #HEALTHCARE
+   cp_healthcare:0 "Opieka zdrowotna"
 
-   synthetic_resources_focus_aluminium:0 "Aluminium"
-   synthetic_resources_focus_chromium:0 "Chrom"
-   synthetic_resources_focus_oil:0 "Ropa"
-   synthetic_resources_focus_rubber:0 "Guma"
-   synthetic_resources_focus_steel:0 "Stal"
-   synthetic_resources_focus_tungsten:0 "Wolfram"
+   #LAWS
+   healthcare_no:0 "Nie"
+   healthcare_private:0 "Prywatny"
+   healthcare_public_bad:0 "Zły publiczny"
+   healthcare_public_decent:0 "Przyzwoity publiczny"
+   healthcare_public_good:0 "Dobro publiczne"
+   
+   #Synthetic Resources Focus - 1
+   cp_synthetic_resources_focus_1:0 "Skupienie na surowcach syntetycznych - 1"
+
+   #LAWS
+   synthetic_resources_focus_aluminium_1:0 "Aluminium"
+   synthetic_resources_focus_chromium_1:0 "Chrom"
+   synthetic_resources_focus_oil_1:0 "Olej"
+   synthetic_resources_focus_rubber_1:0 "Guma"
+   synthetic_resources_focus_steel_1:0 "Stal"
+   synthetic_resources_focus_tungsten_1:0 "Wolfram"
+
+   #Synthetic Resources Focus - 2
+   cp_synthetic_resources_focus_2:0 "Skupienie na surowcach syntetycznych - 2"
+
+   #LAWS
+   synthetic_resources_focus_aluminium_2:0 "Aluminium"
+   synthetic_resources_focus_chromium_2:0 "Chrom"
+   synthetic_resources_focus_oil_2:0 "Olej"
+   synthetic_resources_focus_rubber_2:0 "Guma"
+   synthetic_resources_focus_steel_2:0 "Stal"
+   synthetic_resources_focus_tungsten_2:0 "Wolfram"
 
    #----#
    #UNITS
