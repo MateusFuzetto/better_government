@@ -10,6 +10,7 @@ dependencies={
 	"Kaiserredux: a Kaiserreich Expansion"
 	"Kaiserreich"
 	"The Road to 56 [Beta]"
+	"The Road to 56"
 }
 name="Better Government"
 picture="thumbnail.png"

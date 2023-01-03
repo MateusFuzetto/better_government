@@ -24,7 +24,6 @@ ideas = {
 		
 		hour_limit_14 = {
 			available = {
-				NOT = { has_government = communism }
 				NOT = { has_government = democratic}
 			}
 			
@@ -44,7 +43,6 @@ ideas = {
 		
 		hour_limit_12 = {
 			available = {
-				NOT = { has_government = communism }
 			}
 			
 			modifier = {
@@ -60,9 +58,6 @@ ideas = {
 		
 		hour_limit_10 = {
 			available = {
-				NOT = {
-					has_government = communism
-				}
 			}
 			
 			modifier = {
@@ -80,7 +75,6 @@ ideas = {
 		hour_limit_8 = {
 			available = {
 				NOT = {
-					has_government = communism
 					has_government = fascism
 				}
 			}
