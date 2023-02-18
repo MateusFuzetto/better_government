@@ -26,6 +26,7 @@ ideas = {
 							tag = HOL
 							tag = MAL
 							tag = ROM
+							tag = GER
 							tag = JAP
 						}
 					}
